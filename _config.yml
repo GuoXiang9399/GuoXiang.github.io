@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "郭祥 副教授"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -27,7 +27,7 @@ author:
   name             : "郭祥 (Xiang Guo)"
   pronouns         : # example: "she/her"  
   bio              : "副教授Associate Professor"
-  location         : "河南开封 Kaifeng City, Henan Province, China"
+  location         : "河南开封 Kaifeng, Henan, China"
   employer         : "河南大学 Henan University"
   uri              : # URL
   email            : "guoxiang@henu.edu.cn" 
@@ -35,12 +35,12 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=90Qq6TkAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0002-6928-2590"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
