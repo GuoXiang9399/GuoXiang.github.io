@@ -9,17 +9,17 @@
 
 main:
 
-  - title: "学术论文Publications"
+  - title: "学术论文 Publications"
     url: /publications/
 
   
-  - title: "Teaching"
+  - title: "教学课程 Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  #- title: "Portfolio"
+  #  url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "团队活动 Blog Posts"
     url: /year-archive/
     
   - title: "CV"
