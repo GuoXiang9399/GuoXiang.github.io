@@ -34,13 +34,7 @@ import pandas as pd
 
 # In[3]:
 
-import os
-# 获取当前脚本所在目录
-script_dir = os.path.dirname(os.path.abspath(__file__))
-# 构建完整的文件路径
-publications_file = os.path.join(script_dir, "publications.tsv")
-# 使用完整路径读取文件
-publications = pd.read_csv(publications_file, sep="\t", header=0, encoding='gbk')
+publications = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications
 
 
@@ -57,8 +51,7 @@ html_escape_table = {
     }
 
 def html_escape(text):
-    """Produce entities within text. 确保先将输入转换为字符串类型"""
-    text = str(text)  # 确保输入是字符串类型
+    """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
@@ -68,24 +61,21 @@ def html_escape(text):
 
 # In[5]:
 
-# 确保导入了os模块
 import os
 for row, item in publications.iterrows():
     
-    # 确保所有组件都是字符串类型
-    md_filename = str(item.pub_date) + "-" + str(item.url_slug) + ".md"
-    html_filename = str(item.pub_date) + "-" + str(item.url_slug)
-    year = str(item.pub_date)[:4]
+    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
+    html_filename = str(item.pub_date) + "-" + item.url_slug
+    year = item.pub_date[:4]
     
     ## YAML variables
     
-    md = "---\ntitle: \""   + str(item.title) + '"\n'
+    md = "---\ntitle: \""   + item.title + '"\n'
 
     # TODO Update to use the category assigned in the TSV file
     md += """collection: manuscripts"""
     
-    md += """
-permalink: /publication/""" + html_filename
+    md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
@@ -95,7 +85,7 @@ permalink: /publication/""" + html_filename
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
-        md += "\npaperurl: '" + str(item.paper_url) + "'"
+        md += "\npaperurl: '" + item.paper_url + "'"
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
     
@@ -104,24 +94,14 @@ permalink: /publication/""" + html_filename
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + str(item.paper_url) + "'>Download paper here</a>\n" 
+        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + str(item.citation)
+    md += "\nRecommended citation: " + item.citation
     
-    md_filename = os.path.basename(md_filename)       
-    
-    # 构建完整的输出目录路径
-    output_dir = os.path.join(script_dir, "..", "_publications")
-    # 确保输出目录存在
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    
-    # 使用绝对路径写入文件
-    output_path = os.path.join(output_dir, md_filename)
-    with open(output_path, 'w', encoding='utf-8') as f:
+    md_filename = os.path.basename(md_filename)
+       
+    with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-
-
