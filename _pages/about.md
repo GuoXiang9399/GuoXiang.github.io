@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "XiangGuo Group"
+#title: "XiangGuo Group"
 author_profile: true
 redirect_from: 
   - /about/
