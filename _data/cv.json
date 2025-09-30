@@ -3,7 +3,7 @@
     "name": "Your Sidebar Name",
     "email": "none@example.org",
     "phone": "",
-    "website": "https://academicpages.github.io",
+    "website": "https://github.com/academicpages/academicpages.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
@@ -16,17 +16,17 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=90Qq6TkAAAAJ&hl"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "http://orcid.org/0000-0002-6928-2590"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/GuoXiang9399"
       }
     ]
   },
