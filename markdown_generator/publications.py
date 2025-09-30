@@ -24,10 +24,7 @@
 # In[2]:
 
 import pandas as pd
-import os
 
-# 获取当前脚本所在目录的绝对路径
-script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # ## Import TSV
 # 
@@ -37,9 +34,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # In[3]:
 
-# 使用绝对路径读取文件
-publications_tsv_path = os.path.join(script_dir, "publications.tsv")
-publications = pd.read_csv(publications_tsv_path, sep="\t", header=0)
+publications = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications
 
 
@@ -66,6 +61,7 @@ def html_escape(text):
 
 # In[5]:
 
+import os
 for row, item in publications.iterrows():
     
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
@@ -76,8 +72,8 @@ for row, item in publications.iterrows():
     
     md = "---\ntitle: \""   + item.title + '"\n'
 
-    # 使用正确的collection名称
-    md += """collection: publications"""
+    # TODO Update to use the category assigned in the TSV file
+    md += """collection: manuscripts"""
     
     md += """\npermalink: /publication/""" + html_filename
     
@@ -106,13 +102,6 @@ for row, item in publications.iterrows():
     md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
-    
-    # 使用绝对路径写入文件
-    output_dir = os.path.join(script_dir, "..", "_publications")
-    # 确保输出目录存在
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    output_path = os.path.join(output_dir, md_filename)
        
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
