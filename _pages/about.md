@@ -12,23 +12,6 @@ redirect_from:
 Bachelor's degree in Preventive Medicine from the School of Public Health, Southern Medical University (2017); Ph.D. in Pathogenic Biology from Southern Medical University (2023); Postdoctoral researcher in Military Preventive Medicine at the School of Public Health, Southern Medical University. Primary research focuses on the epidemiology and evolutionary dynamics of mosquito-borne viruses, field ecological behaviors of Aedes mosquitoes, and molecular mechanisms underlying viral infection in mosquito vectors. Developed a globally standardized and traceable genotyping framework for dengue virus, revealing geographically restricted patterns across intercontinental-genotype, regional-genosubtype, and national-genobranch levels. Led the development of the GISDD genotyping platform, an accessible web-based tool for dengue virus classification.
 
 
-发表论文/专利系列 Publication:
-
-（1） 重要蚊媒传染病传播与进化 Molecular Evolution of MBV
-
-<img src="images/GraphicalAbstract-Ev.D1.png" width="100%" style="display: block; margin: auto;" />
-
-
-（2） 媒介蚊虫生态学行为 Ecological habits of Mosquito
-
-<img src="images/GraphicalAbstract-Ae.Habitat.png" width="100%" style="display: block; margin: auto;" />
-
-<img src="images/GraphicalAbstract-Ae.MOI.png" width="100%" style="display: block; margin: auto;" />
-
-
- (3) 寄生虫学医学昆虫 Parasitology
-
-<img src="images/GraphicalAbstract-Para.Bez.png" width="100%" style="display: block; margin: auto;" />
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Photoperiodic diapause in a subtropical population of Aedes albopictus in Guangzhou, China: optimized field-laboratory-based study and statistical models for comprehensive chracterization"
-collection: publications_Ae
-category: manuscripts
+collection: publications
+category: manuscripts_Ae
 permalink: /publication/2018-08-14-Photoperiodic-diapause-in-a-subtropical-population-of-Aedes-albopictus
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2018-08-14

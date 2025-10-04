@@ -81,8 +81,6 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts_MBV:
     title: '重要蚊媒传染病传播与进化 Molecular Evolution of MBV'     
   manuscripts_Ae:
@@ -93,8 +91,10 @@ publication_category:
     title: '其他系列 Others'      
   manuscripts:
     title: 'Journal Articles' 
+  books:
+    title: '专著 Books'
   conferences:
-    title: 'Conference Papers'
+    title: '会议论文 Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

@@ -1,7 +1,7 @@
 ---
 title: "A field-based modeling study on ecological characterization of hourly host-seeking behavior and its associated climatic variables in Aedes albopictus"
-collection: publications_Ae
-category: manuscripts
+collection: publications
+category: manuscripts_Ae
 permalink: /publication/2019-10-14-A-field-based-modeling-study-on-ecological-characterization
 excerpt: 'Our field-based modeling study reveals that hourly host-seeking behavior of Ae. albopictus exhibits a complex pattern, with hourly variation constrained significantly by climatic variables. These findings lay a foundation for improving MBD risk assessments as well as practical strategies for vector control. For instances of all-day-long frequent female biting during the favorable periods in Guangzhou, effective integrated mosquito control measures must be taken throughout the day and night.'
 date: 2019-10-14
