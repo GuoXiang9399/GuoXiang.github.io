@@ -18,3 +18,5 @@ redirect_from:
 Bachelor's degree in Preventive Medicine from the School of Public Health, Southern Medical University (2017); Ph.D. in Pathogenic Biology from Southern Medical University (2023); Postdoctoral researcher in Military Preventive Medicine at the School of Public Health, Southern Medical University.
 
 Primary research focuses on the epidemiology and evolutionary dynamics of mosquito-borne viruses, field ecological behaviors of Aedes mosquitoes, and molecular mechanisms underlying viral infection in mosquito vectors. Developed a globally standardized and traceable genotyping framework for dengue virus, revealing geographically restricted patterns across intercontinental-genotype, regional-genosubtype, and national-genobranch levels. Led the development of the GISDD genotyping platform, an accessible web-based tool for dengue virus classification. Author of multiple peer-reviewed SCI publications in prominent tropical medicine journals, including Infectious Diseases of Poverty and PLoS Neglected Tropical Diseases.
+
+<img src="images/GraphicalAbstract-Ae.Habitat.png" width="100%" style="display: block; margin: auto;" />
