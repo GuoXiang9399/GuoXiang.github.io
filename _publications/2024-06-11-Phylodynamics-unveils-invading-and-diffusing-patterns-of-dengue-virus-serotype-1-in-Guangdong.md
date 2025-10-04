@@ -3,7 +3,7 @@ title: "Phylodynamics unveils invading and diffusing patterns of dengue virus 
 collection: publications
 category: manuscripts_MBV
 permalink: /publication/2024-06-11-Phylodynamics-unveils-invading-and-diffusing-patterns-of-dengue-virus-serotype-1-in-Guangdong
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'This study demonstrates the invasion and diffusion process of DENV-1 in Chinese mainland within a global genotyping framework, characterizing the genetic diversities of viral populations, multiple sources of importation, and periodic dynamics of the epidemic. A total of 189 transmission clusters in 38 clades belonging to 22 subgenotypes of genotype I, IV and V of DENV-1 were identified, with 7 Clades of Concern (COCs) responsible for the large outbreaks since 1990. The epidemic periodicity was inferred from the data to be approximately 3 years.'
 date: 2024-06-11
 venue: 'Infectious Diseases of Poverty'
 paperurl: 'https://idpjournal.biomedcentral.com/counter/pdf/10.1186/s40249-024-01211-6.pdf'

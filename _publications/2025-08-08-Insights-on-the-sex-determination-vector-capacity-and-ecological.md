@@ -1,7 +1,7 @@
 ---
 title: "Insights on the sex determination, vector capacity and ecological biology from a chromosomal level genome of vector mosquito, Armigeres subulbatus"
 collection: publications
-category: manuscripts
+category: manuscripts_Ae
 permalink: /publication/2025-08-08-Insights-on-the-sex-determination-vector-capacity-and-ecological
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-08-08

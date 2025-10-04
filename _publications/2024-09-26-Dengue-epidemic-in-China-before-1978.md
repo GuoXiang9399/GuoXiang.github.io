@@ -1,7 +1,7 @@
 ---
 title: "Dengue epidemic in China before 1978"
 collection: publications
-category: manuscripts
+category: manuscripts_MBV
 permalink: /publication/2024-09-26-Dengue-epidemic-in-China-before-1978
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-09-26

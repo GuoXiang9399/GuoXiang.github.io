@@ -1,7 +1,7 @@
 ---
 title: "Response to Chikungunya fever in China: are we ready?"
 collection: publications
-category: manuscripts
+category: manuscripts_MBV
 permalink: /publication/2025-09-09-Response-to-chikungunya-fever-in-china
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-09-09

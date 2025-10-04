@@ -1,7 +1,7 @@
 ---
 title: "An improved ovitrap-based surveillance framework: facilitating cost-efficient monitoring and efficacy assessment of integrated vector management strategies for dengue outbreak control"
 collection: publications
-category: manuscripts
+category: manuscripts_Ae
 permalink: /publication/2025-09-24-An-improved-ovitrap-based-survellance-framework
 excerpt: 'Based on the oviposition behavior of Ae. albopictus, a novel Improved Ovitrap (IMT) was designed, featuring a bucket-shaped body and a thermoplastic elastomer (TPE) oviposition band. The core usage parameters of the IMT-based surveillance system, including the working radius and area deployment density, have been determined using systematic field investigations combined with mathematical modelling assessments. Furthermore, a novel strategy utilizing the IMT for evaluating the efficacy of integrated mosquito vector management in CATI during dengue outbreaks has been proposed. This innovative monitoring system offers an alternative solution and implementation strategy for conducting cost-effective surveillance of the dengue vector Ae. albopictus, as well as for evaluating the efficacy of integrated vector management during outbreaks.'
 date: 2025-09-24

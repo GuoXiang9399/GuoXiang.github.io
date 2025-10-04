@@ -1,15 +1,13 @@
 ---
 title: "Modeling the dynamic basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field investigation in Guangzhou, a subtropical region"
 collection: publications
-category: manuscripts
+category: manuscripts_Ae
 permalink: /publication/2024-02-21-Modeling-the-dynamic-basic-reproduction-number-of-dengue
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'The present study enriched our knowledge about mosquito-based surveillance indicators and indicated that the MOI of Ae. albopictus could be valuable for application in estimating the R0 of dengue using a statistical model. The MOI-based R0 model prediction of the risk of dengue transmission varied by month and temperature in Guangzhou. Our findings lay a foundation for further development of a complex efficient dengue risk prediction system.'
 date: 2024-02-21
 venue: 'Parasites & Vectors'
 paperurl: 'https://parasitesandvectors.biomedcentral.com/counter/pdf/10.1186/s13071-024-06121-y.pdf'
 ---
-The present study enriched our knowledge about mosquito-based surveillance indicators and indicated that the MOI of Ae. albopictus could be valuable for application in estimating the R0 of dengue using a statistical model. The MOI-based R0 model prediction of the risk of dengue transmission varied by month and temperature in Guangzhou. Our findings lay a foundation for further development of a complex efficient dengue risk prediction system.
-
 Background
 More than half of the global population lives in areas at risk of dengue (DENV) transmission. Developing an efficient risk prediction system can help curb dengue outbreaks, but multiple variables, including mosquito-based surveillance indicators, still constrain our understanding. Mosquito or oviposition positive index (MOI) has been utilized in field surveillance to monitor the wild population density of Aedes albopictus in Guangzhou since 2005.
 
