@@ -8,7 +8,7 @@ date: 2025-09-24
 venue: 'Parasites & Vectors'
 paperurl: 'https://parasitesandvectors.biomedcentral.com/counter/pdf/10.1186/s13071-025-07002-8.pdf'
 ---
--
+Based on the oviposition behavior of Ae. albopictus, a novel Improved Ovitrap (IMT) was designed, featuring a bucket-shaped body and a thermoplastic elastomer (TPE) oviposition band. The core usage parameters of the IMT-based surveillance system, including the working radius and area deployment density, have been determined using systematic field investigations combined with mathematical modelling assessments. Furthermore, a novel strategy utilizing the IMT for evaluating the efficacy of integrated mosquito vector management in CATI during dengue outbreaks has been proposed. Preliminary results have confirmed the feasibility of using the IMT at outbreak sites, providing valuable support for CATI-based implementation. This innovative monitoring system offers an alternative solution and implementation strategy for conducting cost-effective surveillance of the dengue vector Ae. albopictus, as well as for evaluating the efficacy of integrated vector management during outbreaks.
 
 Background
 Dengue fever, transmitted primarily by Aedes aegypti and Ae. albopictus, remains one of the most pervasive mosquito-borne diseases worldwide. In China, the mosquito oviposition trap (MOT) - based Aedes monitoring system has become a cornerstone for dengue prevention and control. However, during outbreaks, this system faces operational challenges because of its labour-intensive nature and time requirements, limiting its efficiency for rapid vector control assessment. 

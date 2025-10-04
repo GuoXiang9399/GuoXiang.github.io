@@ -8,7 +8,7 @@ date: 2018-08-14
 venue: 'Infectious Diseases of Poverty'
 paperurl: 'https://idpjournal.biomedcentral.com/counter/pdf/10.1186/s40249-018-0466-8.pdf'
 ---
-
+Photoperiodic diapause of Ae. albopictus in Guangzhou of China was confirmed and comprehensively elucidated in both the laboratory and the field. Diapause eggs are the main form for overwintering and begin to hatch in large quantities in March in Guangzhou. Furthermore, this study also established an optimized investigation system and statistical models for the study of Ae. albopictus diapause. These findings will contribute to the prevention and control of Ae. albopictus and mosquito-borne diseases.
 
 Background
 Aedes albopictus is among the 100 most invasive species worldwide and poses a major risk to public health. Photoperiodic diapause provides a crucial ecological basis for the adaptation of this species to adverse environments. Ae. albopictus is the vital vector transmitting dengue virus in Guangzhou, but its diapause activities herein remain obscure.
