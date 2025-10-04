@@ -1,7 +1,7 @@
 ---
 title: "GISDD: a comprehensive global integrated sequence and genotyping database platform for dengue virus,facilitating a stratified coordinated surveillance strategy"
 collection: publications
-category: manuscripts
+category: manuscripts_MBV
 permalink: /publication/2025-08-27-GISDD-a-comprehensive-global-integrated-sequence
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-08-27

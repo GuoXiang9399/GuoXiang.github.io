@@ -26,7 +26,7 @@ Bachelor's degree in Preventive Medicine from the School of Public Health, South
 <img src="images/GraphicalAbstract-Ae.MOI.png" width="100%" style="display: block; margin: auto;" />
 
 
- (3) 寄生虫学医学昆虫方向 Parasitology
+ (3) 寄生虫学医学昆虫 Parasitology
 
 <img src="images/GraphicalAbstract-Para.Bez.png" width="100%" style="display: block; margin: auto;" />
 

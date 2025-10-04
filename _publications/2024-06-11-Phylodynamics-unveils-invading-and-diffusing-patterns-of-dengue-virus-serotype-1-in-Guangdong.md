@@ -1,7 +1,7 @@
 ---
 title: "Phylodynamics unveils invading and diffusing patterns of dengue virus serotype-1 in Guangdong, China from 1990 to 2019 under a global genotyping framework"
 collection: publications
-category: manuscripts
+category: manuscripts_MBV
 permalink: /publication/2024-06-11-Phylodynamics-unveils-invading-and-diffusing-patterns-of-dengue-virus-serotype-1-in-Guangdong
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-06-11
