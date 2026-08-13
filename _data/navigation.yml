@@ -9,24 +9,23 @@
 
 main:
 
+  - title: "团队成员 Team"
+    url: /team/
+
   - title: "学术论文 Publications"
     url: /publications/
 
-  
   - title: "教学课程 Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
+  - title: "开发工具 Tools"
+    url: /tools/
+
   #- title: "Portfolio"
   #  url: /portfolio/
-        
-  - title: "团队活动 Blog Posts"
-    url: /year-archive/
-    
+
   #- title: "CV"
   #  url: /cv/
-    
+
   # - title: "CV"
   #   url: /cv-json/
-  
-  - title: "Guide"
-    url: /markdown/
