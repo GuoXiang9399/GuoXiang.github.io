@@ -1,9 +1,19 @@
 /* ==========================================================================
-   TEAM MEMBER
+   TEAM MEMBER - 2 columns grid
    ========================================================================== */
 
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .team-member {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .team-member__inner {
