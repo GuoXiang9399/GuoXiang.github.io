@@ -9,7 +9,7 @@ hide_title: true
 
 {% include base_path %}
 
-<div class="team-grid">
+<div class="team-grid tool-grid">
 {% for tool in site.data.tools %}
 <div class="team-member">
   <div class="team-member__inner">
@@ -17,13 +17,8 @@ hide_title: true
     <div class="team-member__info">
       <h3 class="team-member__name">{{ tool.name }}</h3>
       {% if tool.title %}<span class="team-member__detail">{{ tool.title }}</span>{% endif %}
-      {% if tool.location %}<span class="team-member__detail"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> {{ tool.location }}</span>{% endif %}
-      {% if tool.employer %}<span class="team-member__detail"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> {{ tool.employer }}</span>{% endif %}
-      {% if tool.email %}<span class="team-member__detail"><a href="mailto:{{ tool.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ tool.email }}</a></span>{% endif %}
-      <span class="team-member__links">
-        {% if tool.uri %}<a href="{{ tool.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a>{% endif %}
-        {% if tool.github %}<a href="https://github.com/{{ tool.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
-      </span>
+      {% if tool.uri %}<a class="tool-url" href="{{ tool.uri }}">{{ tool.uri }}</a>{% endif %}
+      {% if tool.github %}<span class="team-member__links"><a href="https://github.com/{{ tool.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></span>{% endif %}
     </div>
   </div>
 </div>

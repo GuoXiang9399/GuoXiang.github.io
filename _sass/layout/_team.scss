@@ -56,3 +56,16 @@
     white-space: nowrap;
   }
 }
+
+/* Tool URL display */
+.tool-url {
+  font-size: 0.8em;
+  color: #52adc8;
+  word-break: break-all;
+  text-decoration: none;
+  margin-top: 0.1em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
