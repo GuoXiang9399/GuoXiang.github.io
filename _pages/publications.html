@@ -25,7 +25,7 @@ hide_title: true
       {% endunless %}
       {% include publication-card.html %}
     {% endfor %}
-    </div>
+    {% if title_shown %}</div>{% endif %}
   {% endfor %}
 {% else %}
   <div class="pub-grid">
