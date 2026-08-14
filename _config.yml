@@ -85,10 +85,11 @@ publication_category:
     title: 'Journal Articles'
   Ev_denv:
     title: 'Epidemiology and evolution of virus 病毒流行与进化'
-  Vir_tech:
-    title: 'Exploration of virus technologies 病毒前沿技术探索'
   Ae_habit:
     title: 'Habit of vector Aedes mosquito 媒介伊蚊生态习性'
+  Vir_tech:
+    title: 'Exploration of virus technologies 病毒前沿技术探索'
+ 
 
 
 # Site Settings

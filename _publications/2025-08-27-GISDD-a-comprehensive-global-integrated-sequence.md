@@ -7,5 +7,6 @@ permalink: /publication/2025-08-27-GISDD-a-comprehensive-global-integrated-seque
 date: 2025-08-27
 venue: 'iMetaOmics'
 paperurl: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/imo2.70048'
+image: 'images/publications/2025-08-27-GISDD-a-comprehensive-global-integrated-sequence.png'
 ---
 GISDD, the Global Integrated Sequence and Genotyping Database for Dengue Virus (DENV), provides an integrated online analysis platform encompassing tools such as GISDDrlearn, GISDDprimer, and GISDDref, enabling swift identification and tracing of well-established DENV genotypes, subgenotypes, and clades, thereby facilitating a stratified global coordinated surveillance strategy.
