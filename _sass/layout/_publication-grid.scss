@@ -2,6 +2,14 @@
    PUBLICATION GRID - 3 columns card layout (bedford.io style)
    ========================================================================== */
 
+/* Override archive layout width when no sidebar is shown */
+.archive.full-width {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    @include prefix(0);
+  }
+}
+
 .pub-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -25,13 +33,15 @@
 
 .pub-card__image {
   width: 100%;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   margin-bottom: 0.5em;
   background: #f5f5f5;
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
   }
 }

@@ -1,0 +1,48 @@
+/* ==========================================================================
+   TEAM MEMBER
+   ========================================================================== */
+
+.team-member {
+  margin-bottom: 1.5rem;
+}
+
+.team-member__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.team-member__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.team-member__info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.team-member__name {
+  margin: 0 0 0.15em;
+  font-size: 1.1em;
+}
+
+.team-member__detail {
+  font-size: 0.85em;
+  color: #555;
+  margin: 0;
+}
+
+.team-member__links {
+  font-size: 0.85em;
+  margin-top: 0.15em;
+
+  a {
+    margin-right: 0.6em;
+    white-space: nowrap;
+  }
+}
