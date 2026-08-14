@@ -1,7 +1,7 @@
 ---
 title: "An improved ovitrap-based surveillance framework: facilitating cost-efficient monitoring and efficacy assessment of integrated vector management strategies for dengue outbreak control"
 collection: publications
-category: manuscripts
+category: Ae_ecology
 permalink: /publication/2025-09-24-An-improved-ovitrap-based-survellance-framework
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-09-24
