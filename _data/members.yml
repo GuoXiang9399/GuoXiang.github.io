@@ -9,10 +9,18 @@
   researchgate: "https://www.researchgate.net/profile/Xiang-Guo-13"
   github: "GuoXiang9399"
 
-- name: "待加入"
-  avatar: "zhangsan.png"        # 放在 images/ 目录下
-  title: "硕士研究生 Master Student"
-  location: "河南开封 Kaifeng, Henan, China"
-  employer: "河南大学 Henan University"
-  email: "zhangsan@henu.edu.cn"
-  github: "zhangsan"
+- name: "深度求索"
+  avatar: "deepseek.png"        # 放在 images/ 目录下
+  #title: "硕士研究生 Master Student"
+  #location: "河南开封 Kaifeng, Henan, China"
+  #employer: "河南大学 Henan University"
+  #email: "zhangsan@henu.edu.cn"
+  #github: "zhangsan"
+
+- name: "豆包"
+  avatar: "doubao.png"        # 放在 images/ 目录下
+  #title: "硕士研究生 Master Student"
+  #location: "河南开封 Kaifeng, Henan, China"
+  #employer: "河南大学 Henan University"
+  #email: "zhangsan@henu.edu.cn"
+  #github: "zhangsan"
