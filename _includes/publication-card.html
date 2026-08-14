@@ -1,0 +1,42 @@
+{% include base_path %}
+
+{% if page.header.teaser %}
+  {% capture teaser %}{{ page.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+{% comment %}Derive image filename from post slug{% endcomment %}
+{% assign slug_parts = post.permalink | split: "/" %}
+{% assign slug = slug_parts | last %}
+
+<div class="pub-card">
+  <article itemscope itemtype="http://schema.org/CreativeWork">
+
+    {% comment %}Publication image{% endcomment %}
+    <div class="pub-card__image">
+      {% assign pub_img = slug | prepend: "/images/publications/" | append: ".png" %}
+      {% assign pub_img_jpg = slug | prepend: "/images/publications/" | append: ".jpg" %}
+      <img src="{{ pub_img | prepend: base_path }}"
+           onerror="this.onerror=null;this.src='{{ pub_img_jpg | prepend: base_path }}';"
+           alt="{{ title }}" loading="lazy" />
+    </div>
+
+    {% comment %}Publication title{% endcomment %}
+    <h3 class="pub-card__title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h3>
+
+    {% comment %}Venue and year{% endcomment %}
+    {% if post.venue %}
+    <p class="pub-card__venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    {% endif %}
+
+  </article>
+</div>

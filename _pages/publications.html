@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: false
 ---
 
-
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
@@ -17,17 +16,19 @@ author_profile: false
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
+        <hr />
+        <div class="pub-grid">
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include publication-card.html %}
     {% endfor %}
+    </div>
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <div class="pub-grid">
+    {% for post in site.publications reversed %}
+      {% include publication-card.html %}
+    {% endfor %}
+  </div>
 {% endif %}
-
-
-
