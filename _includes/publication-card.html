@@ -1,11 +1,5 @@
 {% include base_path %}
 
-{% if page.header.teaser %}
-  {% capture teaser %}{{ page.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 
 {% comment %}Derive image filename from post slug{% endcomment %}
@@ -25,17 +19,17 @@
     </div>
 
     {% comment %}Publication title{% endcomment %}
-    <h3 class="pub-card__title" itemprop="headline">
+    <div class="pub-card__title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h3>
+    </div>
 
     {% comment %}Venue and year{% endcomment %}
     {% if post.venue %}
-    <p class="pub-card__venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    <div class="pub-card__venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</div>
     {% endif %}
 
   </article>
