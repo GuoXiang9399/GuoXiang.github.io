@@ -5,11 +5,27 @@
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
   {% endif %}
 
-  <a href="https://bsky.app/intent/compose?text={{ base_path }}{{ page.url }}" class="btn btn--bluesky" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Bluesky"><i class="fab fa-bluesky" aria-hidden="true"></i><span> Bluesky</span></a>
+  <a href="https://service.weibo.com/share/share.php?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | url_encode }}" class="btn btn--weibo" title="分享到微博"><i class="fab fa-weibo" aria-hidden="true"></i><span> 微博</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ base_path }}{{ page.url }}" class="btn btn--facebook" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="javascript:void(0);" class="btn btn--wechat" title="分享到微信" onclick="document.getElementById('wechat-qr-modal').style.display='flex'"><i class="fab fa-weixin" aria-hidden="true"></i><span> 微信</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.zhihu.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | url_encode }}" class="btn btn--zhihu" title="分享到知乎"><span>知</span></a>
 
-  <a href="https://x.com/intent/post?text={{ base_path }}{{ page.url }}" class="btn btn--x" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
+  <a href="https://bsky.app/intent/compose?text={{ site.url }}{{ site.baseurl }}{{ page.url }}" class="btn btn--bluesky" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Bluesky"><i class="fab fa-bluesky" aria-hidden="true"></i><span> Bluesky</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" class="btn btn--facebook" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+
+  <a href="https://x.com/intent/post?text={{ site.url }}{{ site.baseurl }}{{ page.url }}" class="btn btn--x" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X</span></a>
 </section>
+
+<!-- WeChat QR Code Modal -->
+<div id="wechat-qr-modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:9999;align-items:center;justify-content:center;" onclick="this.style.display='none'">
+  <div style="background:#fff;padding:2em;border-radius:8px;text-align:center;max-width:300px;" onclick="event.stopPropagation()">
+    <p style="margin:0 0 1em;font-weight:bold;">微信扫码分享</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}" alt="QR Code" style="width:200px;height:200px;" />
+    <p style="margin:1em 0 0;font-size:0.85em;color:#666;">扫描二维码在微信中打开</p>
+    <button onclick="document.getElementById('wechat-qr-modal').style.display='none'" style="margin-top:1em;padding:0.5em 1.5em;cursor:pointer;">关闭</button>
+  </div>
+</div>
