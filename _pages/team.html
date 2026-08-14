@@ -7,21 +7,24 @@ full_width: true
 
 {% include base_path %}
 
+{% for member in site.data.members %}
 <div class="team-member">
   <div class="team-member__inner">
-    <img class="team-member__avatar" src="{{ base_path }}/images/profile.png" alt="郭祥" />
+    <img class="team-member__avatar" src="{{ base_path }}/images/{{ member.avatar }}" alt="{{ member.name }}" />
     <div class="team-member__info">
-      <h3 class="team-member__name">郭祥 (Xiang Guo)</h3>
-      <span class="team-member__detail">副教授 Associate Professor</span>
-      <span class="team-member__detail"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> 河南开封 Kaifeng, Henan, China</span>
-      <span class="team-member__detail"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> 河南大学 Henan University</span>
-      <span class="team-member__detail"><a href="mailto:guoxiang@henu.edu.cn"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> guoxiang@henu.edu.cn</a></span>
+      <h3 class="team-member__name">{{ member.name }}</h3>
+      {% if member.title %}<span class="team-member__detail">{{ member.title }}</span>{% endif %}
+      {% if member.location %}<span class="team-member__detail"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> {{ member.location }}</span>{% endif %}
+      {% if member.employer %}<span class="team-member__detail"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> {{ member.employer }}</span>{% endif %}
+      {% if member.email %}<span class="team-member__detail"><a href="mailto:{{ member.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ member.email }}</a></span>{% endif %}
       <span class="team-member__links">
-        <a href="https://scholar.google.com/citations?user=90Qq6TkAAAAJ&hl"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a>
-        <a href="http://orcid.org/0000-0002-6928-2590"><i class="ai ai-orcid ai-fw" aria-hidden="true"></i> ORCID</a>
-        <a href="https://www.researchgate.net/profile/Xiang-Guo-13"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a>
-        <a href="https://github.com/GuoXiang9399"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
+        {% if member.googlescholar %}<a href="{{ member.googlescholar }}"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a>{% endif %}
+        {% if member.orcid %}<a href="{{ member.orcid }}"><i class="ai ai6 ai-orcid ai-fw" aria-hidden="true"></i> ORCID</a>{% endif %}
+        {% if member.researchgate %}<a href="{{ member.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a>{% endif %}
+        {% if member.github %}<a href="https://github.com/{{ member.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
+        {% if member.uri %}<a href="{{ member.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a>{% endif %}
       </span>
     </div>
   </div>
 </div>
+{% endfor %}

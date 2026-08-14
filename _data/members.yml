@@ -1,0 +1,18 @@
+- name: "郭祥 (Xiang Guo)"
+  avatar: "profile.png"
+  title: "副教授 Associate Professor"
+  location: "河南开封 Kaifeng, Henan, China"
+  employer: "河南大学 Henan University"
+  email: "guoxiang@henu.edu.cn"
+  googlescholar: "https://scholar.google.com/citations?user=90Qq6TkAAAAJ&hl"
+  orcid: "http://orcid.org/0000-0002-6928-2590"
+  researchgate: "https://www.researchgate.net/profile/Xiang-Guo-13"
+  github: "GuoXiang9399"
+
+- name: "待加入"
+  avatar: "zhangsan.png"        # 放在 images/ 目录下
+  title: "硕士研究生 Master Student"
+  location: "河南开封 Kaifeng, Henan, China"
+  employer: "河南大学 Henan University"
+  email: "zhangsan@henu.edu.cn"
+  github: "zhangsan"
