@@ -7,6 +7,6 @@ permalink: /publication/2025-11-04-Insights-into-the-autecology-of-Aedes-albopic
 date: 2025-11-04
 venue: 'Parasites & Vectors'
 paperurl: 'https://doi.org/10.1186/s13071-025-07032-2'
-image: 'images/2025-11-04-Insights-into-the-autecology-of-Aedes-albopictus.jpg'
+image: 'images/publications/2025-11-04-Insights-into-the-autecology-of-Aedes-albopictus.jpg'
 --- 
 TBD
