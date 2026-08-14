@@ -4,6 +4,7 @@
 
 .archive {
   margin-bottom: 2em;
+  color: #000;
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -25,6 +26,11 @@
       }
     }
   }
+
+  p {
+    font-size: 0.85em;
+    color: #000;
+  }
 }
 
 .archive__subtitle {
@@ -42,9 +48,14 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  font-size: 0.9em;
 
   a + a {
     opacity: 0.5;
+  }
+
+  a {
+    color: #000;
   }
 }
 
