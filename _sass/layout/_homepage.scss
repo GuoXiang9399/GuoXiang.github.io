@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 65vh;
-    text-align: center;
+    text-align: left;
 
     @include breakpoint($large) {
       min-height: 75vh;
@@ -38,7 +38,7 @@
   .page__lead {
     font-size: 1.15em;
     max-width: 42em;
-    margin: 0.5em auto;
+    margin: 0.5em 0;
 
     @include breakpoint($small) {
       font-size: 1.3em;
