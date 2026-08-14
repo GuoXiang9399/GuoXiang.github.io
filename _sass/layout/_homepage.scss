@@ -1,0 +1,243 @@
+/* ==========================================================================
+   HOMEPAGE - Custom splash layout sections
+   ========================================================================== */
+
+/* ---- Hero overlay enhancement ---- */
+.page__hero--overlay {
+  min-height: 65vh;
+
+  @include breakpoint($large) {
+    min-height: 75vh;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 65vh;
+    text-align: center;
+
+    @include breakpoint($large) {
+      min-height: 75vh;
+    }
+  }
+
+  .page__title {
+    font-size: 2.4em;
+    letter-spacing: 0.03em;
+
+    @include breakpoint($small) {
+      font-size: 3em;
+    }
+
+    @include breakpoint($large) {
+      font-size: 3.6em;
+    }
+  }
+
+  .page__lead {
+    font-size: 1.15em;
+    max-width: 42em;
+    margin: 0.5em auto;
+
+    @include breakpoint($small) {
+      font-size: 1.3em;
+    }
+  }
+}
+
+/* ---- Section container ---- */
+.home-section {
+  max-width: 1200px;
+  margin: 0 auto 3em;
+  padding: 0 1.5em;
+}
+
+.home-section__title {
+  text-align: center;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--global-border-color);
+  font-size: 1.6em;
+
+  @include breakpoint($small) {
+    font-size: 1.8em;
+  }
+}
+
+/* ---- Research focus: 3-column image cards ---- */
+.home-research__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+
+  @include breakpoint($small) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.home-research__card {
+  border-radius: $border-radius;
+  overflow: hidden;
+  background: var(--global-bg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.home-research__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+
+  @include breakpoint($large) {
+    height: 240px;
+  }
+}
+
+.home-research__body {
+  padding: 1em 1.2em 1.2em;
+
+  h3 {
+    margin: 0 0 0.2em;
+    font-size: 1.1em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+  }
+}
+
+/* ---- About lab: image left, text right ---- */
+.home-about__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    gap: 3em;
+  }
+}
+
+.home-about__image {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 520px;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  @include breakpoint($medium) {
+    width: 48%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: $border-radius;
+  }
+}
+
+.home-about__text {
+  flex: 1;
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.7;
+  }
+
+  .btn {
+    margin-top: 0.5em;
+  }
+}
+
+/* ---- Campus gallery: 2x2 image grid ---- */
+.home-gallery__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+
+  @include breakpoint($small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: $border-radius;
+    display: block;
+    transition: transform 0.3s ease;
+
+    @include breakpoint($large) {
+      height: 320px;
+    }
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}
+
+/* ---- Quick links: 4-column icon cards ---- */
+.home-links__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+
+  @include breakpoint($small) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.home-links__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 1em;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  text-decoration: none;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  i {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #52adc8;
+  }
+
+  span {
+    font-size: 0.95em;
+    font-weight: 500;
+  }
+
+  &:hover {
+    border-color: #52adc8;
+    box-shadow: 0 2px 12px rgba(82, 173, 200, 0.15);
+    text-decoration: none;
+    color: var(--global-text-color);
+  }
+}
+
+/* ---- Splash layout full-width ---- */
+.splash .page__content {
+  max-width: 100%;
+  padding: 0;
+}
