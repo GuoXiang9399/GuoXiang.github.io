@@ -86,9 +86,15 @@ publication_category:
   manuscripts:
     title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Papers 会议论文'
+  Ev_denv:
+    title: 'Molecular evolutionary of dengue virus 登革病毒分子进化'
+  Vir_tech:
+    title: 'Exploration of virus technologies 病毒病毒前沿技术探索'
   Ae_habit:
-    title: 'Habitat of vector mosquito媒介蚊虫生态习性'
+    title: 'Habit of vector Aedes mosquito 媒介伊蚊生态习性'
+  Parasite:
+    title: 'Parasites 寄生虫系列研究'
 
 
 # Site Settings
