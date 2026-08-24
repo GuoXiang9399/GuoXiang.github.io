@@ -1,7 +1,7 @@
 ---
 title: "Modeling the dynamic basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field investigation in Guangzhou, a subtropical region"
 collection: publications
-category: Ae_ecology
+category: Ae_habit
 permalink: /publication/2023-10-25-Field-investigation-combined-with-modeling
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-10-25
