@@ -15,14 +15,14 @@
 - name: "豆包 (Doubao)"
   avatar: "doubao.png"
 
+- name: "月之暗面 (Kimi)"
+  avatar: "kimi.png"
+
+- name: "智谱 (GLM)"
+  avatar: "glm.png"
+
 - name: "ChatGPT (OpenAI)"
   avatar: "chatgpt.png"
 
 - name: "Claude (Anthropic)"
   avatar: "claude.png"
-
-- name: "Kimi (Moonshot)"
-  avatar: "kimi.png"
-
-- name: "GLM (Zhipu AI)"
-  avatar: "glm.png"
