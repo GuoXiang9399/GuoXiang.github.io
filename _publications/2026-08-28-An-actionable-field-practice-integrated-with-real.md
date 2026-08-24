@@ -1,7 +1,7 @@
 ---
 title: "An actionable field practice integrated with real-time quantitative vector surveillance for precision intervention during the 2025 Chikungunya outbreak in Foshan"
 collection: publications
-category: Vir_tech
+category: Ae_habit
 permalink: /publication/2026-08-30-An-actionable-field-practice-integrated-with-real
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2026-01-06
