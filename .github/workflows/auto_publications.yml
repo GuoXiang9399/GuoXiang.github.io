@@ -1,0 +1,42 @@
+name: Auto Publications
+
+# Automatically generate _publications/*.md entries for new literature PDFs
+# dropped into files/. Run by auto_publications.py; results are committed back.
+
+on:
+  push:
+    paths:
+      - 'files/**'
+      - 'auto_publications.py'
+      - '.github/workflows/auto_publications.yml'
+  schedule:
+    - cron: '0 3 * * 1'  # weekly safety net, Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install PDF text extraction library
+      run: pip install pymupdf
+
+    - name: Scan files/ for new publications
+      run: python auto_publications.py
+
+    - name: Commit generated entries
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add _publications
+        git commit -m "Automated: add publication entries from files/" || echo "No changes to commit"
+        git push
