@@ -4,22 +4,19 @@
 
 /* ---- Hero overlay enhancement ---- */
 .page__hero--overlay {
-  min-height: 65vh;
-
-  @include breakpoint($large) {
-    min-height: 75vh;
-  }
+  /* 2em = hero margin-bottom (collapsed with #main margin-top),
+     4.5em = body padding-bottom reserved for the sticky footer */
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - #{$masthead-height} - 2em - 4.5em);
+  min-height: calc(100svh - #{$masthead-height} - 2em - 4.5em);
 
   .wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 65vh;
     text-align: left;
-
-    @include breakpoint($large) {
-      min-height: 75vh;
-    }
   }
 
   .page__title {
