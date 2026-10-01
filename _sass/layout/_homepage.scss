@@ -4,12 +4,12 @@
 
 /* ---- Hero overlay enhancement ---- */
 .page__hero--overlay {
-  /* 2em = hero margin-bottom (collapsed with #main margin-top),
-     4.5em = body padding-bottom reserved for the sticky footer */
+  /* 2em = hero margin-bottom, $masthead-height = body padding-bottom
+     reserved for the sticky footer (footer min-height = $masthead-height) */
   display: flex;
   align-items: center;
-  min-height: calc(100vh - #{$masthead-height} - 2em - 4.5em);
-  min-height: calc(100svh - #{$masthead-height} - 2em - 4.5em);
+  min-height: calc(100vh - #{$masthead-height} - 2em - #{$masthead-height});
+  min-height: calc(100svh - #{$masthead-height} - 2em - #{$masthead-height});
 
   .wrapper {
     width: 100%;
