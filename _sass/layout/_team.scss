@@ -57,9 +57,37 @@
   }
 }
 
+/* Compact download buttons (Google Scholar / ORCID style) */
 .team-member__downloads {
-  margin-top: 0.6em;
-  font-size: 0.82em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  margin-top: 0.55em;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.28em 0.75em;
+    font-size: 0.78em;
+    line-height: 1.2;
+    border: 1px solid var(--global-border-color);
+    border-radius: 4px;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease;
+
+    i {
+      font-size: 1em;
+    }
+
+    &:hover {
+      border-color: #52adc8;
+      color: #52adc8;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Tool URL display */

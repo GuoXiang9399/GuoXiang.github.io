@@ -14,5 +14,34 @@ header:
   cta_label: "认识我们 Meet the Team"
 ---
 
+<script>
+(function () {
+  var hero = document.querySelector('.page__hero--overlay');
+  if (!hero) return;
+  var filter = 'linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))';
+  var imgs = [
+    '/images/campus/minglun-cover.jpg',
+    '/images/campus/minglun-2.jpg',
+    '/images/campus/minglun-3.jpg',
+    '/images/campus/jinming-cover.jpg',
+    '/images/campus/jinming-2.jpg',
+    '/images/campus/jinming-3.jpg'
+  ];
+  var slides = [];
+  imgs.forEach(function (src, i) {
+    var d = document.createElement('div');
+    d.className = 'hero-slide' + (i === 0 ? ' is-active' : '');
+    d.style.backgroundImage = filter + ', url("' + src + '")';
+    hero.insertBefore(d, hero.firstChild);
+    slides.push(d);
+  });
+  var cur = 0;
+  setInterval(function () {
+    slides[cur].classList.remove('is-active');
+    cur = (cur + 1) % slides.length;
+    slides[cur].classList.add('is-active');
+  }, 6000);
+})();
+</script>
 
 

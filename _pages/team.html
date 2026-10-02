@@ -27,8 +27,8 @@ full_width: true
       </span>
       {% if member.cv or member.achievements %}
       <div class="team-member__downloads">
-        {% if member.cv %}<a class="btn btn--inverse btn--block" href="{{ base_path }}{{ member.cv }}"><i class="fas fa-fw fa-file-arrow-down" aria-hidden="true"></i> 下载 CV (PDF)</a>{% endif %}
-        {% if member.achievements %}<a class="btn btn--inverse btn--block" href="{{ base_path }}{{ member.achievements }}"><i class="fas fa-fw fa-file-excel" aria-hidden="true"></i> 下载成果列表 (Excel)</a>{% endif %}
+        {% if member.cv %}<a href="{{ base_path }}{{ member.cv }}"><i class="fas fa-file-arrow-down" aria-hidden="true"></i> CV</a>{% endif %}
+        {% if member.achievements %}<a href="{{ base_path }}{{ member.achievements }}"><i class="fas fa-file-excel" aria-hidden="true"></i> 成果列表</a>{% endif %}
       </div>
       {% endif %}
     </div>
