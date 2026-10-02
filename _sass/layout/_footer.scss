@@ -19,7 +19,7 @@
   height: auto;
   /* sticky footer fix end */
 
-  min-height: $masthead-height;
+  min-height: $masthead-height * 0.5;
   display: flex;
   align-items: center;
 

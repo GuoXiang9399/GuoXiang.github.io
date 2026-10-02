@@ -5,13 +5,12 @@
 /* ---- Hero overlay enhancement ---- */
 .page__hero--overlay {
   /* fill the viewport between masthead and footer exactly;
-     #{$masthead-height * 2} = masthead + footer, margin-bottom 0
-     keeps the image flush against the footer */
+     footer is half the masthead height */
   display: flex;
   align-items: center;
   margin-bottom: 0;
-  min-height: calc(100vh - #{$masthead-height * 2});
-  min-height: calc(100svh - #{$masthead-height * 2});
+  min-height: calc(100vh - #{$masthead-height + $masthead-height * 0.5});
+  min-height: calc(100svh - #{$masthead-height + $masthead-height * 0.5});
 
   .wrapper {
     position: relative;

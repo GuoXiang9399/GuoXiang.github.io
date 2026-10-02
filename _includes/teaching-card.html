@@ -1,0 +1,25 @@
+{% include base_path %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<div class="pub-card">
+  <article itemscope itemtype="http://schema.org/CreativeWork">
+
+    <div class="pub-card__body">
+      <div class="pub-card__title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </div>
+
+      {% if post.type or post.venue %}
+      <div class="pub-card__cite">
+        {{ post.type }}. <i>{{ post.venue }}</i>. {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      </div>
+      {% endif %}
+    </div>
+
+  </article>
+</div>

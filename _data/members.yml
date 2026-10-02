@@ -34,9 +34,3 @@
 
 - name: "智谱 (GLM)"
   avatar: "glm.png"
-
-- name: "ChatGPT (OpenAI)"
-  avatar: "chatgpt.png"
-
-- name: "Claude (Anthropic)"
-  avatar: "claude.png"

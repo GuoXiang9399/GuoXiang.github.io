@@ -14,7 +14,7 @@ body {
 
   margin: 0;
   padding: $masthead-height 0 0;
-  padding-bottom: $masthead-height;
+  padding-bottom: $masthead-height * 0.5;
   font-family: $global-font-family;
   line-height: 1.5;
 
