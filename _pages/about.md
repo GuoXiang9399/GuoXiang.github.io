@@ -18,20 +18,22 @@ header:
 (function () {
   var hero = document.querySelector('.page__hero--overlay');
   if (!hero) return;
+  var m = (hero.style.backgroundImage || '').match(/url\(['"]?([^'")]+)['"]?\)/);
+  var dir = m ? m[1].replace(/[^\/]+$/, '') : '/images/campus/';
   var filter = 'linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))';
-  var imgs = [
-    '/images/campus/minglun-cover.jpg',
-    '/images/campus/minglun-2.jpg',
-    '/images/campus/minglun-3.jpg',
-    '/images/campus/jinming-cover.jpg',
-    '/images/campus/jinming-2.jpg',
-    '/images/campus/jinming-3.jpg'
+  var files = [
+    'minglun-cover.jpg',
+    'minglun-2.jpg',
+    'minglun-3.jpg',
+    'jinming-cover.jpg',
+    'jinming-2.jpg',
+    'jinming-3.jpg'
   ];
   var slides = [];
-  imgs.forEach(function (src, i) {
+  files.forEach(function (f, i) {
     var d = document.createElement('div');
     d.className = 'hero-slide' + (i === 0 ? ' is-active' : '');
-    d.style.backgroundImage = filter + ', url("' + src + '")';
+    d.style.backgroundImage = filter + ', url("' + dir + f + '")';
     hero.insertBefore(d, hero.firstChild);
     slides.push(d);
   });
