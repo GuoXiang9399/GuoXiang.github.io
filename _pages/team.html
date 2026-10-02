@@ -25,6 +25,12 @@ full_width: true
         {% if member.github %}<a href="https://github.com/{{ member.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
         {% if member.uri %}<a href="{{ member.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a>{% endif %}
       </span>
+      {% if member.cv or member.achievements %}
+      <div class="team-member__downloads">
+        {% if member.cv %}<a class="btn btn--inverse btn--block" href="{{ base_path }}{{ member.cv }}"><i class="fas fa-fw fa-file-arrow-down" aria-hidden="true"></i> 下载 CV (PDF)</a>{% endif %}
+        {% if member.achievements %}<a class="btn btn--inverse btn--block" href="{{ base_path }}{{ member.achievements }}"><i class="fas fa-fw fa-file-excel" aria-hidden="true"></i> 下载成果列表 (Excel)</a>{% endif %}
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>

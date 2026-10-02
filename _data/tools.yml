@@ -1,9 +1,14 @@
 - name: "GISDD"
   avatar: "gisdd.png"
   title: "Global Integrated Sequence..."
-  uri: "https://www.bic.ac.cn/GISDD/"
+  uri: "https://www.gisdd.top"
 
 - name: "mMap"
   avatar: "mmap.png"
   title: "Mosquito Mapping..."
   uri: ""
+
+- name: "PsyTrace"
+  avatar: "psytrace.svg"
+  title: "Mental Health Screening..."
+  github: "GuoXiang9399/PsyPlat"

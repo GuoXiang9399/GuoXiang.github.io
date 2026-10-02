@@ -1,12 +1,12 @@
 ---
-title: "Modeling the dynamic basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field investigation in Guangzhou, a subtropical region"
+title: "Field investigation combined with modeling uncovers the ecological heterogeneity of Aedes albopictus habitats for strategically improving its systematic management during urbanization"
 collection: publications
 category: Ae_habit
 permalink: /publication/2023-10-25-Field-investigation-combined-with-modeling
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-10-25
 venue: 'Parasites & Vectors'
-paperurl: 'https://doi.org/10.1186/s13071-024-06121-y.pdf'
+paperurl: 'https://doi.org/10.1186/s13071-023-05926-7'
 image: 'images/publications/2023-10-25-Field-investigation-combined-with-modeling.png'
 ---
 Background Aedes albopictus is an invasive vector of serious Aedes-borne diseases of global concern. Habitat management remains a critical factor for establishing a cost-effective systematic strategy for sustainable vector 

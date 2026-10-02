@@ -1,0 +1,212 @@
+# CV data - single source of truth for auto_cv.py
+# Edit this file to update the CV, then run: python auto_cv.py
+personal:
+  name: 郭 祥
+  info_lines:
+  - '籍 贯: 河南开封'
+  - '出生年月: 1993.9.9'
+  - '民 族: 汉族'
+  - '政治面貌: 共产党员'
+  - '电 话: +86 18819147449'
+  - '微 信: guoxiang_601765739'
+  - '邮 箱: guoxiang199399@163.com'
+  - '国家基础研究科研人员标识 BRID: 00132.00.70019'
+bio:
+- 河南大学基础医学院副教授，河南大学深圳研究院病原和媒介生物创新研究中心主任。2017 年南方医科大学公共卫生学院预防医学专业本科，2023 年南方医科大学病原生物学专业博士，南方医科大学公共卫生学院军事预防医学博士后。
+- 主要研究方向为蚊媒病毒流行与进化、伊蚊野外生态行为和病毒蚊虫感染机制，提出了可比较和可追踪的全球登革病毒统一基因分型框架，发现登革病毒洲际-基因型、区域-基因亚型和国家-基因分支对应层面展的地理限制性特征，构建了 GISDD 分型平台网站。于 Interdisciplinary Medicine、iMetaOmics、Infectious Diseases of Poverty 等期刊发表多篇 SCI 论文，申请/授权发明专利 4 项，获授权实用新型专利 3 项。参与起草国家标准 1 项，以主要起草人撰写团体标准 2 项。
+- 作为项目负责人主持国家自然科学基金青年项目、国家科技基础条件平台国家寄生虫资源库项目和广东省爱卫办“揭榜挂帅”项目等。参与国家重点研发计划、广东省重点领域研发计划、国家自然科学基金面上项目、广东省科技攻关专项等重要科技项目。
+- iMeta、Interdisciplinary Medicine、Decoding Infection and Transmission 等学术期刊青年编委，BMC Infectious Diseases 学术期刊编辑，STAR Protocols 等学术期刊审稿人。
+sections:
+- title: 工作经历
+  numbered: false
+  entries:
+  - text: 2025.07 - 至今, 副教授, 河南大学, 基础医学院, 病原生物学系
+  - text: '2023.07 - 2025.06, 博士后, 预防医学与公共卫生-军事预防医学, 南方医科大学, 公共卫生学院, 合作导师: 周晓红 教授'
+- title: 教育经历
+  numbered: false
+  entries:
+  - text: '2017.09 - 2023.06, 医学博士, 病原生物学, 南方医科大学, 公共卫生学院, 导师: 周晓红 教授'
+    subs:
+    - '学位论文: 登革病毒的群体遗传结构、基因分型体系及时空扩散模式研究'
+  - text: 2012.09 - 2017.06, 医学学士, 预防医学, 南方医科大学, 公共卫生学院
+    subs:
+    - '学位论文: 广州白纹伊蚊亚热带野生种群滞育生物学特性研究'
+  - text: 2012.09 - 2017.06, 理学学士, 应用心理学(第二学位), 南方医科大学, 公共卫生学院
+- title: 访问经历
+  numbered: true
+  entries:
+  - text: '广东省疾病预防控制中心. 2019年9月 - 2019年11月. 项目: Molecular evolution of dengue serotype 1 in China, 2014.'
+  - text: '国家基因库/华大生命科学研究院. 2018年6月 - 2018年11月. 项目: A unified global genotyping framework of dengue serotype 1.'
+- title: 研究领域
+  numbered: true
+  entries:
+  - text: 蚊媒病毒流行、适应性突变与进化
+  - text: 媒介蚊虫行为、个体生态与疾病传播
+- title: 项目承担
+  numbered: true
+  entries:
+  - text: (国家自然科学基金基金项目C类) 媒介伊蚊传播过程中登革病毒非结构蛋白NS1的适应性进化机制研究, 2026.01至2028.12, 负责人.
+  - text: (广东省爱卫办病媒生物监测与防制创新技术“揭榜挂帅”项目) 基于新型高效诱卵器构建智能化采样选点软件、伊蚊消杀控制效果评价指标及分级预警, 2024-07 至2026-12, 负责人.
+  - text: (国家科技基础条件平台国家寄生虫资源库项目) 蚊科的生物多样性及全球分布规律研究, NPRC-019-194-30, 2024-07至2025-06, 负责人.
+- title: 项目参与
+  numbered: true
+  entries:
+  - text: (国家重点研发计划, 生物安全关键技术研发专项) 重大外来入侵媒介和病原生物侦检与防控关键技术产品研发, 2020YFC1200100, 2020-07 至2022-06, 参与(33/50), 项目秘书.
+  - text: (国家重点研发计划, 生物安全关键技术研发专项) 重要热带病传播相关的入侵媒介生物及其病原体的生物学特性研究, 2016YFC1200500, 2016-07 至2018-12, 参与, 课题秘书.
+  - text: (国家自然科学基金, 面上项目) 白纹伊蚊光周期性滞育母代效应传递的分子机制, 82072311, 2021-01 至2024-12, 参与(4/6).
+  - text: (广东省重点领域研发计划项目, 生物安全技术专项) 重要外来虫媒生物防控关键技术研究, 2022B1111030002, 2022-06-01 至2025-06-01, 参与(10/37).
+  - text: (广东省科技计划项目, 区域创新能力与支撑保障体系建设) 重要媒介伊蚊生物学研究与防治, 2021A1414020005, 2020-01-01 至2021-12-31, 参与(3/6).
+  - text: (广东省科技计划项目, 广东省防控寨卡病毒病科技攻关专项) 广东省寨卡病毒病流行风险预警及应对研究, 2016A020251001, 2016-03-01 至2018-02-28, 参与.
+  - text: (广州市科技计划项目, 健康医疗协同创新重大计划) 广州登革热流行的病原学、媒介控制与临床救治研究, 201803040006&201508020263, 2015-2021, 参与.
+- title: 学术论文发表
+  numbered: true
+  publications: true
+- title: 预印论文&审稿中论文
+  numbered: true
+  entries:
+  - text: '(其他作者完成, 国际合作研究, 白纹伊蚊群体遗传研究) Jacob E. Crawford, Nigel Beebe, Mariangela Bonizzoni, Beniamino Caputo, Brendan H. Carter, Chun-Hong Chen, Luciano V. Cosme, Carlo Maria De Marco, Alessandra della Torre, Elizabet Estallo, Xiang Guo, Weiliang Liu, Kevin Maringer, Jimmy Mains, Andrew Maynard, Totoyoshi Mogi, Todd Livdahl, Noah Rose, Patricia Y. Scarafia, Dave Severson, Marina Stein, Sinnathamby N. Surendran, Nobuko Tuno, Isra Wahid, Xiaoming Wang, Jiannong Xu, Guiyun Yan, Don Yee, Peter A. Armbruster, Adalgisa Coccone, Bradley J. White. Aalbo1200: global genetic differentiation and variability of the mosquito Aedes albopictus. bioRxiv, 2023-11-22.'
+  - text: (第一作者/通讯作者完成) Xiang Guo*, Shu Zeng, Haiyang Chen, Ziyao Li, Xiaohua Liu, Liu Ge, Qing He, Wenyi Li, Xiaohong Zhou*. mMap, a comprehensive and continuously updated species distribution database facilitating the understanding of mosquito diversity and distribution patterns. bioRxiv, 2025-12-22.
+- title: 专利
+  numbered: true
+  entries:
+  - text: (第一作者完成) 郭祥, 张晓晴, 刘晓华, 钟嘉瑶, 周晓红. 一种用于扩增血清型登革 I 型病毒基因组的引物组与试剂盒及应用. 发明专利, ZL202310154099X (授权).
+  - text: (第一作者完成) 郭祥, 刘晓华, 葛柳, 陈海洋, 张晓晴, 李紫瑶, 王宇基, 曾淑, 周晓红. 一种用于扩增血清型登革 II 型病毒基因组的引物组与试剂盒及应用. 发明专利, 2024116019463 (受理审查).
+  - text: (第一作者完成) 郭祥, 胡甜, 周晓红, 陈晓光. 一种用于白纹伊蚊野外蚊卵收集的诱卵器. 实用新型专利, ZL201720722702.X (授权).
+  - text: (第二作者完成) 胡敏玲, 郭祥, 任文雯, 李紫瑶, 周晓红. 一种用于I-IV 型登革病毒检测的 DENV-crRNA 及其试剂盒和应用. 发明专利, ZL202310154105.1 (授权).
+  - text: (第二作者完成) 刘晓华, 郭祥, 张晓晴, 李紫瑶, 任文雯, 胡敏玲, 曾淑, 钟嘉谣, 周晓红. 一种用于 RNA 病毒宏病毒组高通量测序的 cDNA 文库构建方法及试剂盒. 发明专利, 2023041801660140 (受理审查).
+  - text: (第二作者完成) 李紫瑶, 郭祥, 胡敏玲, 任文雯, 周晓红. 一种蚊类饲血微餐槽及蚊体外人工膜饲血器. 实用新型专利, ZL202122562963.9 (授权).
+  - text: (第二作者完成) 周思云, 郭祥, 伍靖, 李子旋, 周晓红. 一种白纹伊蚊诱卵器. 实用新型专利, ZL201821192917.6 (授权).
+- title: 专著
+  numbered: true
+  entries:
+  - text: (编委、秘书参与) 陈晓光, 周晓红, 顾金保主编. 《重要媒介伊蚊生物学研究与防制》(出版中), “第九章 白纹伊蚊媒介与疾病传播”, 参与撰写.
+- title: 会议报告
+  numbered: true
+  entries:
+  - text: (报告) 基于群体遗传和系统发生解码蚊媒病毒流行传播与进化规律. iMeta 大会 2025 生物-微生物/生信. 2025-08-23, 武汉.
+  - text: (报告) 群体遗传视角下我国流行 DENV-1 结构特征和传播扩散规律研究. 2023粤港澳大湾区输入性热带病防控联盟第六届年会 粤港澳高校联盟青年学者论坛. 2023-12-16, 广州.
+  - text: (青年论坛) 基于DENV-1统一分型框架的伊蚊传播疾病全球扩散模式研究. 2023逸仙热带病学术论坛暨广东省寄生虫学会第九届理事会第五次会议. 2023-03-25, 梅州.
+  - text: (研究生论坛) Revealing ecological characteristics of mosquito vector behavior in disease transmission using field-laboratory-based modelling. 2020 年广东省昆虫学会年会. 2020-11-28, 广州增城.
+  - text: (研究生论坛) Ecological and Molecular Characterisation of Photoperiodic Diapause in Aedes albopictus in Guangzhou, a Subtropical Population. 2019 年广东省昆虫学会年会. 2019-12-14, 广州南沙.
+- title: 会议论文
+  numbered: true
+  entries:
+  - text: 'Zhihao Zhu, Lin Zhang, Xiaofang Yao, Meiyin Zeng, Yao Wang, Hao Luo, ......, Xiang Guo, ......, Suyin Feng*, Shuangxia Jin*, Chuanxing Xiao*, Ziheng Wang*, Peng Luo*, Tong Chen*, Gang Chen*, Yong-Xin Liu*. iMeta conference 2025: creating high-impact international journals. iMeta, 2025; e70086. (2025 中科院大类:生物学 1 区 Top 期刊, 小类:微生物学 1 区; 2023IF: 23.7; 2024IF: 33).'
+  - text: 'Yao Wang#, Huiyu Hou#, Luo Hao#, Jiani Xun#, Chuang Ma#, Haifei Yang#, Defeng Bai#, Salabeel Yousuf#, Hujie Lyu#, Tianyuan Zhang#, Xiulin Wan#, Xiaofang Yao#, Tengfei Ma#, ......, Xiang Guo, ......, Chun-Lin Shi*, Ren-You Gan*, Fangqing Zhao*, Yun Yu*, Tong Chen*, Xin Hong*, Bangzhou Zhang*, Shifu Chen*, Xiaodong Li*, Yunyun Gao*, Yong-Xin Liu*. iMeta 2024 conference: building an innovative scientific research ecosystem for microbiome and one health. iMeta, 2024; e251. (2025中科院大类:生物学1区Top期刊, 小类:微生物学1区; 2023IF: 23.7; 2024IF: 33).'
+  - text: 李紫瑶, 任文雯, 曾淑, 郭祥, 孔翎, 夏丹, 刘鸿铠, 王宇基, 谢振声, 胡甜, 滕萍英, 张晓晴, 刘晓华, 胡敏玲, 陈海洋, 葛柳, 李文怡, 陈晓光, 周晓红*. 核心钟基因调控白纹伊蚊光周期性滞育的分子机制. 中国动物学会寄生虫学专业委员会第十届全国会员大会暨第十九届全国学术会议. 乌鲁木齐, 2024.
+  - text: 郭祥#, 李骊#, 魏跃红, 罗雷, 谢甜, 史本云, 胡甜, 陈世港, 何杰俊, 纪夏钿, 周华声, 张小凡, 邝浩成, 罗陆婷, 王春梅, 吴让科, 闫桂云, 杨智聪*, 陈晓光*, 周晓红*. Modelling the basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field study in Guangzhou, a subtropical region. 广东省有害生物防制协会年会. 佛山, 2019.
+  - text: 周思云, 郭祥, 伍靖, 李子璇, 周晓红*. Evaluation of the killing effect of Sodium Chloride Solution on Aedes albopictus. 广东省有害生物防制协会年会. 佛山, 2019.
+  - text: 'Dzinkambani Moffat Kambalame#, Xiang Guo#, Rangke Wu, Lizhi Zhou, Yiquan Xiong, Li Li, Dan Xia, Qiang Huang, Qingqing Yin, Tian Hu, Xiaohong Zhou*. A neglected dengue threat in sub-Saharan Africa: a systematic review, meta-analysis and phylogenetic characterization. 4th Symposium on Surveillance & Response. Shanghai, China, 2018.'
+  - text: Dan Xia#, Xiang Guo#, Tian Hu, Pingying Teng, Qingqing Yin, Lei Luo, Yuehong Wei, Qian Yang, Shukai Li, Yuji Wang, Tian Xie, Chunmei Wang, Yiji Li, Yu Xie, Xinghua Su, Tengfei Zhou, Zetian Lai, Cheng Wang, Wanyu Li, Ye Deng, Zhicong Yang, Xiao-Guang Chen, Xiaohong Zhou*. Photoperiodic diapause of the invasive mosquito Aedes albopictus in Guangzhou, a subtropical population. The Third International Congress on Biological Invasions. Hangzhou, China, 2017.
+- title: 科技报告
+  numbered: true
+  entries:
+  - text: (第六作者完成) 周晓红, 朱毅斌, 彭志强, 孙九峰, 张璐, 郭祥. 重要外来入侵虫媒病毒侦检和防控关键技术产品研究结题验收报告. 国家重点研发计划科技报告. 12440000771868596D--2020YFC1200104/04. 2023-09-20.
+  - text: (第六作者完成) 周晓红, 朱毅斌, 彭志强, 孙九峰, 张璐, 郭祥. 重要外来入侵虫媒病毒侦检和防控关键技术产品研究年度报告(2023). 国家重点研发计划科技报告. 12440000771868596D--2020YFC1200104/03. 2023-09-20.
+  - text: (第六作者完成) 周晓红, 朱毅斌, 彭志强, 孙九峰, 张璐, 郭祥. 重要外来入侵虫媒病毒侦检和防控关键技术产品研究年度报告(2022). 国家重点研发计划科技报告. 12440000771868596D--2020YFC1200104/02. 2022-11-30.
+  - text: (第六作者完成) 周晓红, 朱毅斌, 彭志强, 孙九峰, 张璐, 郭祥. 重要外来入侵虫媒病毒侦检和防控关键技术产品研究年度报告(2021). 国家重点研发计划科技报告. 12440000771868596D--2020YFC1200104/01. 2021-11-30.
+  - text: (第五作者完成) 陈晓光, 周晓红, 顾金保, 刘敏, 郭祥. 入侵媒介和病原体/病原体与宿主(媒介)相互作用的分子机制研究结题验收报告. 国家重点研发计划科技报告. 12440000771868596D--2016YFC1200504/04. 2019-04-18.
+  - text: (第五作者完成) 陈晓光, 周晓红, 顾金保, 刘敏, 郭祥. 入侵媒介和病原体/病原体与宿主(媒介)相互作用的分子机制研究 2018 年度报告. 国家重点研发计划科技报告. 12440000771868596D--2016YFC1200504/03. 2019-04-18.
+  - text: (第五作者完成) 陈晓光, 周晓红, 顾金保, 刘敏, 郭祥. 入侵媒介和病原体/病原体与宿主(媒介)相互作用的分子机制研究 2017 年度报告. 国家重点研发计划科技报告. 12440000771868596D--2016YFC1200504/02. 2018-06-01.
+  - text: (第五作者完成) 陈晓光, 周晓红, 顾金保, 刘敏, 郭祥. 入侵媒介和病原体/病原体与宿主(媒介)相互作用的分子机制研究 2016 年度报告. 国家重点研发计划科技报告. 12440000771868596D--2016YFC1200504/01. 2017-06-01.
+publications:
+- note: 第一作者完成, 媒介监测技术代际演进系统评述
+  text: 'Xiang Guo, Ziyao Li, Shu Zeng, Yun Zhou, Tieshan Teng, Yongzhi Li, Yaohui Wang, Xiaohong Zhou*, Xiao-Guang Chen*. Interdisciplinary-driven generational shifts in vector mosquito surveillance technologies: from traditional traps to smart systems. Decoding Infection and Transmission. 2026; 4: 100091. doi: 10.1016/j.dcit.2026.100091. '
+  doi: 10.1016/j.dcit.2026.100091
+  year: 2026
+- note: 第一作者完成, 2025年佛山基孔肯雅热疫情精准防控实践
+  text: 'Xiang Guo, Haiyang Chen, Jinhua Duan, Ziyao Li, Wenjie Zhang, Yezi Jin, Ziqing Feng, Yuchao Rong, Chenyu Han, Ruipeng Lu, Wenting Deng, Wenting Guo, Yuxiang Feng, Shu Zeng, Liu Ge, Shihan Liu, Lu Gan, Rangke Wu, Meng Zhang, Yuwen Zhong, Min Kang, Xiaohong Zhou*, Xiao-Guang Chen*. An actionable field practice integrated with real-time quantitative vector surveillance for precision intervention during the 2025 Chikungunya outbreak in Foshan. Parasites & Vectors. 2026. doi: 10.1186/s13071-026-07654-0. '
+  doi: 10.1186/s13071-026-07654-0
+  year: 2026
+- note: 第一作者完成, 揭示蚊细胞中DENV来源DNA与宿主-病毒嵌合事件
+  text: 'Xiang Guo, Qingqing Yin, Pingying Teng, Xiaohua Liu, Ziyao Li, Yuji Wang, Tian Xie, Minling Hu, Wenwen Ren, Yingjie Liu, Xiaoqing Zhang, Xiao-Guang Chen*, Xiaohong Zhou*. Evidence for virus-derived DNA and host-virus chimeric events generating in mosquito cell cultures following infection with dengue virus serotype 1. Discover Viruses. 2026; 3: 12. doi: 10.1007/s44370-026-00049-w. '
+  doi: 10.1007/s44370-026-00049-w
+  year: 2026
+- note: 共同第一作者完成, 新检测方法实现蚊媒中病毒检测并应用预警
+  text: 'Xiang Guo#, Minling Hu#, Ying Lu#, Xiaohua Liu, Haiyang Chen, Xiaoqing Zhang, Liu Ge, Ziyao Li, Yuji Wang, Qing He, Shu Zeng, Wenwen Ren, Lingzhai Zhao, Zhiqiang Peng, Wushen Chen, Chunmei Wang, Qingming Kong, Shaohong Lu, Fuchun Zhang, Lei Luo*, Hua Li*, Xiao-Guang Chen*, Xiaohong Zhou*. A clustered regularly interspaced palindromic repeat‐Cas12a‐based assay for rapid dengue virus monitoring in mosquito and clinical samples facilitating global collaborative surveillance and risk assessment to block dengue spreading. Interdisciplinary Medicine. 2026; e70074. doi: 10.1002/inmd.70074. (2025 中科院大类:医学1区; 2024IF: 13.6).'
+  doi: 10.1002/inmd.70074
+  year: 2026
+- note: 第一作者完成, 登革病毒在线分析平台
+  text: 'Xiang Guo, Pingying Teng, Ziyao Li, Liqiang Li, Xiaohua Liu, Xiaoqing Zhang, Yuji Wang, Minling Hu, Wenwen Ren, Shu Zeng, Haiyang Chen, Liu Ge, Shihan Liu, Zhiqiang Peng, Jiufeng Sun, Xin Zhang, Lei Luo, Jie Peng, Benyun Shi, Rangke Wu, Jiming Liu, Fuchun Zhang, Xiao-Guang Chen, Tong Chen*, Xiaohong Zhou*. GISDD: A comprehensive global integrated sequence and genotyping database platform for dengue virus, facilitating a stratified coordinated surveillance strategy. iMetaOmics. 2025; e70048. doi: 10.1002/imo2.70048. '
+  doi: 10.1002/imo2.70048
+  year: 2025
+- note: 共同第一作者完成, 提出DENV全球统一基因分型框架
+  text: 'Liqiang Li#, Xiang Guo#, Xiaoqing Zhang, Lingzhai Zhao, Li Li, Yuji Wang, Tian Xie, Qingqing Yin, Qinlong Jing, Tian Hu, Ziyao Li, Rangke Wu, Wei Zhao, Sherman Xuegang Xin, Benyun Shi, Jiming Liu, Shang Xia, Zhiqiang Peng, Zhicong Yang, Fuchun Zhang*, Xiao-Guang Chen*, Xiaohong Zhou*. A unified global genotyping framework of dengue virus serotype-1 for a stratified coordinated surveillance strategy of dengue epidemics. Infectious Diseases of Poverty. 2022; 11: 107. doi: 10.1186/s40249-022-01024-5. (2022 中科院大类:医学 1 区 Top 期刊, 小类:热带医学 1 区(Top1),寄生虫学1区,传染病学2区; 2025中科院大类:医学1区, 小类:热带医学1区(Top1),寄生虫学1区,传染病学1区; 2022IF: 8.1, 2024IF: 5.5).'
+  doi: 10.1186/s40249-022-01024-5
+  year: 2022
+- note: 第一作者完成, 大型野外调研研究
+  text: 'Xiang Guo, Lei Luo, Yuxiang Long, Pingying Teng, Yuehong Wei, Tian Xie, Li Li, Qingqing Yin, Ziyao Li, Yuji Wang, Jiejun He, Xiatian Ji, Huasheng Zhou, Xiaofan Zhang, Shigang Chen, Yezhen Zhou, Kaihui Xu, Guancong Liang, Haocheng Kuang, Yuting Gao, Xiaohua Liu, Luting Luo, Lin Ding, Yiji Li, Zhuanzhuan Liu, Tengfei Zhou, Zetian Lai, Xinghua Su, Yuyan Guo, Chenying Li, Lihua Xie, Minqing Li, Xinglong Wu, Jianhao Huang, Weicong Su, Yicheng Pan, Wei Hu, Dongrui Zhou, Chunv Li, Juan Gui, Jiazhi Ma, Xiaoli Feng, Minyi Zhu, Shangbin Zhong, Fan Chen, Huanchao Zeng, Yingxian Wu, Chen Wang, Shukai Li, Qi Wang, Xueyi Wang, Yekai Zhou, Jianxun Ling, Yingjie Liu, Shang Wu, Zhiwei Li, Minghui Zhong, Wenxia Wei, Lixian Xie, Xianli Xu, Hehai Huang, Guilan Yang, Yan Liu, Siting Liang, Yingxia Wu, Deyu Zhang, Changqing Xu, Jie Wang, Chunmei Wang, Rangke Wu, Zhicong Yang*, Xiao-Guang Chen*, Xiaohong Zhou*. Field investigation combined with modeling uncovers the ecological heterogeneity of Aedes albopictus habitats for strategically improving systematic management during urbanization. Parasites & Vectors. 2023; 16: 382. doi: 10.1186/s13071-023-05926-7. (2025中科院大类:医学2区, 小类:热带医学2区(Top3),寄生虫学2区; 2023IF: 3.2, 2024IF: 3.5).'
+  doi: 10.1186/s13071-023-05926-7
+  year: 2023
+- note: 第一作者完成, 蚊密度新型监测技术
+  text: 'Xiang Guo#, Shihan Liu#, Xiaohua Liu, Kaihao Chen, Wushen Chen, Zhenyu Huang, Ziyao Li, Shu Zeng, Haiyang Chen, Qing He, Liu Ge, Yijia Guo, Xiaming Chen, Zhiqiang Peng, Benyun Shi, Jiming Liu, Xiao-Guang Chen, Xiaohong Zhou*. An improved ovitrap-based surveillance framework: facilitating cost-efficient monitoring and efficacy assessment of integrated vector management strategies for dengue outbreak control. Parasites & Vectors. 2025; 18: 380. doi: 10.1186/s13071-025-07002-8. (2025中科院大类:医学2区, 小类:热带医学2区(Top3),寄生虫学2区; 2024IF: 3.5).'
+  doi: 10.1186/s13071-025-07002-8
+  year: 2025
+- note: 共同第一作者完成, 基于分型框架揭示我国 DENV 流行传播规律
+  text: 'Lingzhai Zhao#, Xiang Guo#, Liqiang Li#, Qinlong Jing#, Jinmin Ma, Tian Xie, Dechun Lin, Li Li, Qingqing Yin, Yuji Wang, Xiaoqing Zhang, Ziyao Li, Xiaohua Liu, Tian Hu, Minling Hu, Wenwen Ren, Jun Li, Jie Peng, Lei Yu, Zhiqiang Peng, Wenxin Hong, Xingyu Leng, Lei Luo, Jone Jama Kpanda Ngobeh, Xiaoping Tang, Rangke Wu, Wei Zhao, Benyun Shi, Jiming Liu, Zhicong Yang*, Xiao-Guang Chen*, Xiaohong Zhou*, Fuchun Zhang*. Phylodynamics unveils invading and diffusing patterns of dengue virus serotype-1 in Guangdong, China from 1990 to 2019 under a global genotyping framework. Infectious Diseases of Poverty. 2024; 13: 43. doi: 10.1186/s40249-024-01211-6. (2025 中科院大类:医学 1 区, 小类:热带医学 1 区(Top1),寄生虫学1区,传染病学1区; 2023IF: 4.8, 2024IF: 5.5).'
+  doi: 10.1186/s40249-024-01211-6
+  year: 2024
+- note: 第一作者完成, 登革病毒流行史
+  text: 'Xiang Guo, Haiyang Chen, Ruifeng Lin, Xiaohua Liu, Meng Li, Liu Ge, Wenting Deng, Rangke Wu, Xiaohong Zhou*. Dengue epidemic in China before 1978. Infectious Diseases of Poverty. 2024; 13: 69. doi: 10.1186/s40249-024-01243-y. (2018中科院大类:医学3区,小类传染病学3区; 2025中科院大类:医学1区, 小类:热带医学1区(Top1),寄生虫学1区,传染病学1区; 2018IF: 3.123, 2024IF: 5.5).'
+  doi: 10.1186/s40249-024-01243-y
+  year: 2024
+- note: 共同通讯作者完成, 宏 RNA 病毒组技术
+  text: 'Xiaohua Liu#, Ziyao Li#, Xiang Guo*, Liu Ge, Minling Hu, Qing He, Xiaoqing Zhang, Ziqing Feng, Yuji Wang, Lingzhai Zhao, Shu Zeng, Wenwen Ren, Haiyang Chen, Chunmei Wang, Rangke Wu, Wei Zhao, Fuchun Zhang, Xiao-Guang Chen, Xiaohong Zhou*. SMART-RNA-Metavirome: a practical RNA metavirome platform compatible with high-throughput sequencing of both short and long reads. Infectious Diseases of Poverty. 2025; 14: 101. doi: 10.1186/s40249-025-01371-z. (2025中科院大类:医学 1 区, 小类:热带医学 1 区(Top1),寄生虫学1区,传染病学1区; 2024IF: 5.5).'
+  doi: 10.1186/s40249-025-01371-z
+  year: 2025
+- note: 共同第一作者完成, 构建基于 MOI 指数的 R0 风险评估
+  text: 'Xiang Guo#, Li Li#, Wenwen Ren, Minling Hu, Ziyao Li, Shu Zeng, Xiaohua Liu, Yuji Wang, Tian Xie, Qingqing Yin, Yuehong Wei, Lei Luo, Benyun Shi, Chunmei Wang, Rangke Wu, Zhicong Yang, Xiao-Guang Chen, Xiaohong Zhou*. Modelling the dynamic basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field investigation in Guangzhou, a subtropical region. Parasites & Vectors. 2024; 17: 79. doi: 10.1186/s13071-024-06121-y. (2025 中科院大类:医学2区, 小类:热带医学2区(Top3),寄生虫学2区; 2023IF: 3.2, 2024IF: 3.5).'
+  doi: 10.1186/s13071-024-06121-y
+  year: 2024
+- note: 第一作者完成, 伊蚊生态行为综述
+  text: 'Xiang Guo, Ziyao Li, Siyu Zhao, Yijia Guo, Shu Zeng, Haiyang Chen, Xiaohua Liu, Qing He, Liu Ge, Xiaohong Zhou*. Insights into the autecology of Aedes albopictus. Parasites & Vectors. 2025; 18: 445. doi: 10.1186/s13071-025-07032-2. (2025中科院大类:医学2区, 小类:热带医学2区(Top3),寄生虫学2区; 2024IF: 3.5).'
+  doi: 10.1186/s13071-025-07032-2
+  year: 2025
+- note: 共同第一作者完成, 系统性综述全球蛆症金蝇所致蝇蛆病, 官网高达 1 万+访问阅读量
+  text: 'Xianyi Zhou#, Dzinkambani Moffat Kambalame#, Sitong Zhou#, Xiang Guo#, Dan Xia, Yemei Yang, Rangke Wu, Juan Luo, Fenglong Jia, Mingchi Yuen, Yuehua Xu, Geyang Dai, Li Li, Tian Xie, Santhosh Puthiyakunnon, Wenxia Wei, Lixian Xie, Siting Liang, Yuqin Feng, Songgen Huang, Yongxuan Hu, Qianzhen Mo, Rongjia Mai, Xiaoqing Zhang, Philip Spradbery*, Xiaohong Zhou*. Human Chrysomya bezziana myiasis: A systematic review. PLOS Neglected Tropical Diseases. 2019; 13(10): e0007391. doi: 10.1371/journal.pntd.0007391. (2019 中科院大类:医学 2 区 Top 期刊, 小类:热带医学1区(Top2),寄生虫学2区; 2025中科院大类:医学2区Top期刊, 小类:热带医学1区(Top2),寄生虫学2区; 2019IF: 3.885, 2024IF: 3.4).'
+  doi: 10.1371/journal.pntd.0007391
+  year: 2019
+- note: 第一作者完成, 评估了钠盐用于致死性诱卵器的可能性
+  text: 'Xiang Guo, Siyun Zhou, Jing Wu, Xiaoqing Zhang, Yuji Wang, Zixuan Li, Xiao-Guang Chen, Xiaohong Zhou*. An Experimental Evaluation of Toxicity Effects of Sodium Chloride on Oviposition, Hatching and Larval Development of Aedes albopictus. Pathogens. 2022; 11: 262. doi: 10.3390/pathogens11020262. (2022中科院大类:医学3区, 小类:微生物学3区; 2025中科院大类:医学3区, 小类:微生物学3区; 2022IF: 3.7; 2023IF: 3.3).'
+  doi: 10.3390/pathogens11020262
+  year: 2022
+- note: 第二作者完成, 为广东省爱卫运动越冬蚊控制提供理论基础
+  text: 'Dan Xia, Xiang Guo, Tian Hu, Li Li, Ping-Ying Teng, Qing-Qing Yin, Lei Luo, Tian Xie, Yue-Hong Wei, Qian Yang, Shu-Kai Li, Yu-Ji Wang, Yu Xie, Yi-Ji Li, Chun-Mei Wang, Zhi-Cong Yang, Xiao-Guang Chen*, Xiao-Hong Zhou*. Photoperiodic diapause in a subtropical population of Aedes albopictus in Guangzhou, China: optimized field-laboratory-based study and statistical models for comprehensive characterization. Infectious Diseases of Poverty. 2018; 7: 89. doi: 10.1186/s40249-018-0466-8. (2018中科院大类:医学 3 区,小类传染病学 3 区; 2025中科院大类:医学 1 区, 小类:热带医学1区(Top1),寄生虫学1区,传染病学1区; 2018IF: 3.123, 2024IF: 5.5).'
+  doi: 10.1186/s40249-018-0466-8
+  year: 2018
+- note: 第三作者完成, 揭示白纹伊蚊刺叮行为规律
+  text: 'Qingqing Yin#, Li Li#, Xiang Guo, Rangke Wu, Benyun Shi, Yuji Wang, Yingjie Liu, Shang Wu, Yicheng Pan, Qi Wang, Tian Xie, Tian Hu, Dan Xia, Shang Xia, Dzinkambani Moffat Kambalame, Wanyu Li, Zhangyao Song, Siyun Zhou, Ye Deng, Yu Xie, Xiao-Nong Zhou, Chunmei Wang, Xiao-Guang Chen, Xiaohong Zhou*. A field-based modeling study on ecological characterization of hourly host-seeking behavior and its associated climatic variables in Aedes albopictus. Parasites & Vectors. 2019; 12: 474. doi: 10.1186/s13071-019-3715-1. (2019中科院大类:医学2区, 小类:热带医学1区(Top3),寄生虫学2区; 2025中科院大类:医学2区, 小类:热带医学2区(Top3),寄生虫学2区; 2019IF: 2.824, 2024IF: 3.5).'
+  doi: 10.1186/s13071-019-3715-1
+  year: 2019
+- note: 第二作者完成, 基孔肯雅热防控评述
+  text: 'Xiaohong Zhou, Xiang Guo, Xiaoguang Chen*. Response to Chikungunya fever in China: are we ready?. Decoding Infection and Transmission. 2025; 3: 10058. doi: 10.1016/j.dcit.2025.100058. '
+  doi: 10.1016/j.dcit.2025.100058
+  year: 2025
+- note: 第三作者完成, 评估塞拉利昂儿童监护人对疟疾的认知
+  text: 'Joan Mabinty Koroma, Yuji Wang, Xiang Guo, Xiaoqing Zhang, Jone Jama Kpanda Ngobeh, Ahmed Mohamed Elamin Ali Gabir, Ziyao Li, Li Li, Rangke Wu, Xiaohong Zhou*. A Cross-Sectional Survey on the Malaria Control and Prevention Knowledge, Attitudes, and Practices of Caregivers of Children Under-5 in the Western Area of Sierra Leone. Tropical Medicine and Infectious Disease. 2022; 7: 120. doi: 10.3390/tropicalmed7070120. (2022 中科院大类:医学 3 区, 小类:热带医学 2 区,寄生虫学 3 区,传染病4区; 2025中科院大类:医学4区, 小类:热带医学2区,寄生虫学3区,传染病4区; 2022IF: 2.9, 2024IF: 2.8).'
+  doi: 10.3390/tropicalmed7070120
+  year: 2022
+- note: 其他作者完成, 骚扰阿蚊基因组
+  text: 'Peiwen Liu#, Feng Liu#, Hao-Ran Lu#, Jinbao Gu#, Xiaohong Zhou#, Yang Wu#, Zhen Zou, Xiang Guo, Wenqiang Yang, Shan Li, Ziyao Li, Xiao-Guang Chen*. Insights on the sex determination, vector capacity and ecological biology from a chromosomal level genome of vector mosquito, Armigeres subulbatus. Infectious Diseases of Poverty. 2025; 14: 84. doi: 10.1186/s40249-025-01353-1. (2025中科院大类:医学1区, 小类:热带医学1区(Top1),寄生虫学1区,传染病学1区; 2024IF: 5.5).'
+  doi: 10.1186/s40249-025-01353-1
+  year: 2025
+- note: 其他作者完成, 国际合作研究, 白纹伊蚊群体遗传研究
+  text: 'Stéphanie Sherpa, Jordan Tutagata, Thierry Gaude, Frédéric Laporte, Shinji Kasai, Intan H. Ishak, Xiang Guo, Jiyeong Shin, Sébastien Boyer, Sébastien Marcombe, Theeraphap Chareonviriyaphap, Jean-Philippe David, Xiao-Guang Chen, Xiaohong Zhou, Laurence Després. Genomic Shifts, Phenotypic Clines, and Fitness Costs Associated With Cold Tolerance in the Asian Tiger Mosquito. Molecular Biology and Evolution. 2022; 39(5): msac104. doi: 10.1093/molbev/msac104. (2022中科院大类:生物学 1 区Top期刊, 小类:遗传学 1区,生化与分子生物学2区,进化生物学2区; 2025中科院大类:生物学 1区 Top 期刊, 小类:遗传学 1 区,生化与分子生物学 2区,进化生物学 2区; 2022IF: 10.7, 2023IF: 11.0).'
+  doi: 10.1093/molbev/msac104
+  year: 2022
+- note: 共同第一作者完成
+  doi: ''
+  year: 2016
+  text: '滕萍英#, 郭祥#, 潘怡承, 夏丹, 周晓红*. 白纹伊蚊同步诱卵体系的优化及其卵胚发育观察. 寄生虫与医学昆虫学报. 2016; 23(2): 98-104. (中文核心期刊).'
+- note: 第三作者完成
+  doi: ''
+  year: 2024
+  text: '胡敏玲#, 张晓晴#, 郭祥, 刘晓华, Jone Jama Kpanda Ngobeh, 李紫瑶, 赵令斋, 陈海洋, 葛柳, 曾淑, 任文雯, 张复春, 周晓红*. 基于DENV-1全球统一基因分型协同监测策略的纳米孔测序溯源技术体系的建立与初步应用. 中国热带医学. 2024; 24(10): 1166-1216. (中文核心期刊).'
+- note: 第二作者完成
+  doi: ''
+  year: 2021
+  text: '刘晓华, 郭祥, 高文艳, 周晓红*. 病毒及其分类单元名称的词源学分析. 热带医学杂志. 2021; 21(9): 1227-1232. (中国科技论文统计源期刊).'
+- note: 其他作者完成
+  doi: ''
+  year: 2025
+  text: '周小涛, 郭怡佳, 黄振宇, 张敏, 边寰锋, 郑磊, 郭祥, 陈晓光, 陈夏明*. 深圳市 2024 年 1 起建筑工地登革热疫情应急处置及其新技术初步应用. 中国热带医学. 2025; 25(5): 662-668. (中文核心期刊).'

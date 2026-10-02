@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications 预览 - HENU GUO Lab</title>
+<style>
+  :root { --border: #f2f3f3; --text: #494e52; --dark: #212529; --muted: #6c757d; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 16px; line-height: 1.5; color: var(--text);
+    background: #fff; margin: 0; padding: 0 0 70px;
+  }
+
+  /* ---- 模拟页眉（70px，与真实站点一致）---- */
+  .masthead {
+    height: 70px; display: flex; align-items: center;
+    padding: 0 3em; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: #fff; z-index: 10;
+  }
+  .masthead__title { font-size: 1.2em; font-weight: 700; color: var(--dark); }
+  .masthead__nav { margin-left: auto; display: flex; gap: 1.75em; }
+  .masthead__nav a { color: #7a8288; text-decoration: none; font-size: 0.9em; }
+  .masthead__nav a.active { color: var(--dark); font-weight: 600; }
+
+  /* ---- 正文区域 ---- */
+  .content { max-width: 1280px; margin: 0 auto; padding: 1.5em 3em 0; }
+  h2 { font-weight: 300; font-size: 1.5em; margin: 1.6em 0 0.4em; color: var(--dark); }
+  .content hr { border: none; border-top: 2px solid #a2aab0; margin: 0 0 0.5em; }
+
+  /* ---- 论文网格：3 列，文字左 + 缩略图右 ---- */
+  .pub-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    column-gap: 2em; row-gap: 2.25em; margin: 1.25em 0 2.5em;
+  }
+  @media (max-width: 960px) { .pub-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .pub-grid { grid-template-columns: 1fr; } }
+
+  .pub-card article { display: flex; align-items: flex-start; min-height: 140px; }
+  .pub-card__body { flex: 1; min-width: 0; padding-right: 1.25em; }
+  .pub-card__title { font-weight: 300; font-size: 1.05em; line-height: 1.3; margin: 0; }
+  .pub-card__title a { color: var(--dark); text-decoration: none; }
+  .pub-card__title a:hover { text-decoration: underline; }
+  .pub-card__cite { font-size: 0.85em; font-weight: 300; line-height: 1.4; margin: 0.35em 0 0; color: var(--muted); }
+  .pub-card__image { width: 100px; flex-shrink: 0; }
+  .pub-card__image a { display: block; }
+  .pub-card__image img {
+    width: 100%; height: auto; display: block;
+    border: 1px solid var(--border); border-radius: 2px;
+  }
+
+  /* ---- 模拟页脚（70px，小字居中）---- */
+  .page__footer {
+    position: fixed; bottom: 0; left: 0; right: 0; height: 70px;
+    display: flex; align-items: center; justify-content: center;
+    background: #fff; border-top: 1px solid var(--border);
+    font-size: 0.7em; color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__title">HENU GUO Lab</div>
+  <nav class="masthead__nav">
+    <a href="#">团队成员 Team</a>
+    <a href="#" class="active">学术论文 Publications</a>
+    <a href="#">教学课程 Teaching</a>
+    <a href="#">开发工具 Tools</a>
+  </nav>
+</header>
+
+<main class="content">
+
+<h2>Epidemiology and evolution of virus 病毒流行与进化</h2>
+<hr />
+<div class="pub-grid">
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Response to Chikungunya fever in China: are we ready?</a></div>
+      <div class="pub-card__cite">2025. Decoding Infection and Transmission.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2025-09-09-Response-to-chikungunya-fever-in-china.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">GISDD: a comprehensive global integrated sequence and genotyping database platform for dengue virus, facilitating a stratified coordinated surveillance strategy</a></div>
+      <div class="pub-card__cite">2025. iMetaOmics.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2025-08-27-GISDD-a-comprehensive-global-integrated-sequence.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Dengue epidemic in China before 1978</a></div>
+      <div class="pub-card__cite">2024. Infectious Diseases of Poverty.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2024-09-26-Dengue-epidemic-in-China-before-1978.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Phylodynamics unveils invading and diffusing patterns of dengue virus serotype-1 in Guangdong, China from 1990 to 2019 under a global genotyping framework</a></div>
+      <div class="pub-card__cite">2024. Infectious Diseases of Poverty.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2024-06-11-Phylodynamics-unveils-invading-and-diffusing-patterns-of-dengue-virus-serotype-1-in-Guangdong.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">A unified global genotyping framework of dengue virus serotype-1 for a stratified coordinated surveillance strategy of dengue epidemics</a></div>
+      <div class="pub-card__cite">2022. Infectious Diseases of Poverty.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2022-10-13-A-unified-global-genotyping-framework-of-dengue-virus-serotype-1.png" alt=""></a></div>
+  </article></div>
+
+</div>
+
+<h2>Habit of vector Aedes mosquito 媒介伊蚊生态习性</h2>
+<hr />
+<div class="pub-grid">
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Interdisciplinary-driven generational shifts in vector mosquito surveillance technologies: from traditional traps to smart systems</a></div>
+      <div class="pub-card__cite">2026. Decoding Infection and Transmission.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2026-09-12-Interdisciplinary-driven-generational-shifts-in-vector-mosquito.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">An actionable field practice integrated with real-time quantitative vector surveillance for precision intervention during the 2025 Chikungunya outbreak in Foshan</a></div>
+      <div class="pub-card__cite">2026. Parasites &amp; Vectors.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2026-08-25-An-actionable-field-practice-integrated-with-real.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Insights into the autecology of Aedes albopictus</a></div>
+      <div class="pub-card__cite">2025. Parasites &amp; Vectors.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2025-11-04-Insights-into-the-autecology-of-Aedes-albopictus.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">An improved ovitrap-based surveillance framework: facilitating cost-efficient monitoring and efficacy assessment of integrated vector management strategies for dengue outbreak control</a></div>
+      <div class="pub-card__cite">2025. Parasites &amp; Vectors.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2025-09-24-An-improved-ovitrap-based-survellance-framework.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Insights on the sex determination, vector capacity and ecological biology from a chromosomal level genome of vector mosquito, Armigeres subulbatus</a></div>
+      <div class="pub-card__cite">2025. Infectious Diseases of Poverty.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2025-08-08-Insights-on-the-sex-determination-vector-capacity-and-ecological.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Modeling the dynamic basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field investigation in Guangzhou, a subtropical region</a></div>
+      <div class="pub-card__cite">2024. Parasites &amp; Vectors.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2024-02-21-Modeling-the-dynamic-basic-reproduction-number-of.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Modeling the dynamic basic reproduction number of dengue based on MOI of Aedes albopictus derived from a multi-site field investigation in Guangzhou, a subtropical region</a></div>
+      <div class="pub-card__cite">2023. Parasites &amp; Vectors.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2023-10-25-Field-investigation-combined-with-modeling.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Genomic Shifts, Phenotypic Clines, and Fitness Costs Associated With Cold Tolerance in the Asian Tiger Mosquito</a></div>
+      <div class="pub-card__cite">2022. Molecular Biology and Evolution.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2022-05-16-Genomic-shifts-phenotypic-clines.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">An experimental evaluation of toxicity effects of sodium chloride on oviposition, hatching and larval development of Aedes albopictus</a></div>
+      <div class="pub-card__cite">2022. Pathogens.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2022-02-18-An-experimental-evaluation-of-toxicity.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">A field-based modeling study on ecological characterization of hourly host-seeking behavior and its associated climatic variables in Aedes albopictus</a></div>
+      <div class="pub-card__cite">2019. Parasites &amp; Vectors.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2019-10-14-A-field-based-modeling-study-on-ecological-characterization.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Photoperiodic diapause in a subtropical population of Aedes albopictus in Guangzhou, China: optimized field-laboratory-based study and statistical models for comprehensive characterization</a></div>
+      <div class="pub-card__cite">2018. Infectious Diseases of Poverty.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2018-08-14-Photoperiodic-diapause-in-a-subtropical-population.png" alt=""></a></div>
+  </article></div>
+
+</div>
+
+<h2>Exploration of virus technologies 病毒前沿技术探索</h2>
+<hr />
+<div class="pub-grid">
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Evidence for virus-derived DNA and host-virus chimeric events generating in mosquito cell cultures following infection with dengue virus serotype 1</a></div>
+      <div class="pub-card__cite">2026. Discovery Virus.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2026-06-16-Evidence-for-virus-derived-DNA-and-host-virus.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">A clustered regularly interspaced palindromic repeat-Cas12a-based assay for rapid dengue virus monitoring in mosquito and clinical samples facilitating global collaborative surveillance and risk assessment to block dengue spreading</a></div>
+      <div class="pub-card__cite">2026. Interdisciplinary Medicine.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2026-01-06-A-CRISPR-Cas12a-based-assay-for-rapid-dengue-virus-monitoring.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">SMART-RNA-Metavirome: a refined RNA metavirome platform compatible with high-throughput sequencing of both short and long reads</a></div>
+      <div class="pub-card__cite">2025. Infectious Diseases of Poverty.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2025-10-10-SMART-RNA-Metavirome.png" alt=""></a></div>
+  </article></div>
+
+</div>
+
+<h2>Parasites 寄生虫学研究</h2>
+<hr />
+<div class="pub-grid">
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">A cross-sectional survey on the malaria control and prevention knowledge, attitudes, and practices of caregivers of children under-5 in the western area of Sierra Leone</a></div>
+      <div class="pub-card__cite">2022. Tropical Medicine and Infectious Disease.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2022-06-28-A-corss-sectional-survey-on-the-malaria.png" alt=""></a></div>
+  </article></div>
+
+  <div class="pub-card"><article>
+    <div class="pub-card__body">
+      <div class="pub-card__title"><a href="#">Human Chrysomya bezziana myiasis: a systematic review</a></div>
+      <div class="pub-card__cite">2019. Plos Neglected Tropical Diseases.</div>
+    </div>
+    <div class="pub-card__image"><a href="#"><img src="../images/publications/2019-10-16-Human-chrysomya-bezziana-myiasis.png" alt=""></a></div>
+  </article></div>
+
+</div>
+
+</main>
+
+<footer class="page__footer">
+  &copy; 2026 HENU GUO Lab. &nbsp;Site last updated 2026-10-02
+</footer>
+
+</body>
+</html>

@@ -9,28 +9,37 @@
 <div class="pub-card">
   <article itemscope itemtype="http://schema.org/CreativeWork">
 
-    {% comment %}Publication image{% endcomment %}
-    <div class="pub-card__image">
-      {% assign pub_img = slug | prepend: "/images/publications/" | append: ".png" %}
-      {% assign pub_img_jpg = slug | prepend: "/images/publications/" | append: ".jpg" %}
-      <img src="{{ pub_img | prepend: base_path }}"
-           onerror="this.onerror=null;this.src='{{ pub_img_jpg | prepend: base_path }}';"
-           alt="{{ title }}" loading="lazy" />
-    </div>
+    {% comment %}Text block: title + citation (bedford.io style){% endcomment %}
+    <div class="pub-card__body">
+      <div class="pub-card__title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </div>
 
-    {% comment %}Publication title{% endcomment %}
-    <div class="pub-card__title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% if post.venue %}
+      <div class="pub-card__cite">
+        {{ post.date | default: "1900-01-01" | date: "%Y" }}. {{ post.venue }}.
+      </div>
       {% endif %}
     </div>
 
-    {% comment %}Venue and year{% endcomment %}
-    {% if post.venue %}
-    <div class="pub-card__venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</div>
-    {% endif %}
+    {% comment %}Thumbnail on the right{% endcomment %}
+    <div class="pub-card__image">
+      {% if post.link %}
+        <a href="{{ post.link }}" tabindex="-1" aria-hidden="true">
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" tabindex="-1" aria-hidden="true">
+      {% endif %}
+        {% assign pub_img = slug | prepend: "/images/publications/" | append: ".png" %}
+        {% assign pub_img_jpg = slug | prepend: "/images/publications/" | append: ".jpg" %}
+        <img src="{{ pub_img | prepend: base_path }}"
+             onerror="this.onerror=null;this.src='{{ pub_img_jpg | prepend: base_path }}';"
+             alt="" loading="lazy" />
+      </a>
+    </div>
 
   </article>
 </div>

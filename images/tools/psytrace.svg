@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#1e3a5f"/>
+  <path d="M 20 210 C 70 210, 80 130, 130 130 S 190 190, 240 150"
+        fill="none" stroke="#7cb0d8" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1 10"/>
+  <circle cx="240" cy="150" r="6" fill="#7cb0d8"/>
+  <text x="150" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#ffffff">Psy</text>
+  <text x="150" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#7cb0d8">Trace</text>
+</svg>
