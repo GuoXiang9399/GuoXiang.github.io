@@ -5,12 +5,13 @@
 /* ---- Hero overlay enhancement ---- */
 .page__hero--overlay {
   /* fill the viewport between masthead and footer exactly;
-     footer is half the masthead height */
+     --masthead-h is set by JS to the real rendered masthead height
+     (70px desktop, 56px narrow screens); footer is half the masthead */
   display: flex;
   align-items: center;
   margin-bottom: 0;
-  min-height: calc(100vh - #{$masthead-height + $masthead-height * 0.5});
-  min-height: calc(100svh - #{$masthead-height + $masthead-height * 0.5});
+  min-height: calc(100vh - var(--masthead-h, #{$masthead-height}) - #{$masthead-height * 0.5});
+  min-height: calc(100svh - var(--masthead-h, #{$masthead-height}) - #{$masthead-height * 0.5});
 
   .wrapper {
     position: relative;
@@ -44,6 +45,12 @@
       font-size: 1.3em;
     }
   }
+}
+
+/* Hero pages carry no #main content spacing: the splash #main is empty,
+   its 2em top margin would open a gap between hero and footer */
+.page__hero--overlay ~ #main {
+  margin-top: 0;
 }
 
 /* ---- Hero image carousel (campus scenery) ---- */
